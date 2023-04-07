@@ -1,2 +1,2 @@
 # DeCent
-Create decentralized Progressive Web Apps
+YESH
