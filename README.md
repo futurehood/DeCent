@@ -1,2 +1,2 @@
 # DeCent
-FUCK YESH
+Create decentralized Progressive Web Apps
