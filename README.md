@@ -5,4 +5,4 @@
 </a>
 
 
-    <img style="" src="assets/pure_connection.svg">
+<img src="assets/pure_connection.svg">
