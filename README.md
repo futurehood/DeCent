@@ -1,7 +1,7 @@
 # DeCent
 
 <img src="assets/logo_with_text.svg" style="width: 70%;">
-<img src="assets/h2h.svg" align="right" style="width: calc(30% -20px);">
+<img src="assets/h2h.svg" align="right" style="width: calc(30% - 20px);">
 <img src="assets/pure_connection_yesh.svg"  width=70%>
 
 <a href="">
