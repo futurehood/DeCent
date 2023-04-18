@@ -1,6 +1,6 @@
 # DeCent
 
-<img src="assets/logo_with_text.svg" align="left"  width=60%>
+<img src="assets/logo_with_text.svg" align="left" style="width: 60%;">
 <img src="assets/h2h.svg" align="right"  width=30%>
 <img src="assets/pure_connection_yesh.svg"  width=70%>
 
