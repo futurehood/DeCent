@@ -11,3 +11,4 @@
 
 <img src="assets/pure_connection.svg">
 <img src="assets/screenshot-dashboard.svg" style="width:50%;">
+<img src="assets/fields.svg" style="width:50%;">
