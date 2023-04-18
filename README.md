@@ -10,3 +10,4 @@
 
 
 <img src="assets/pure_connection.svg">
+<img src="assets/screenshot-dashboard.svg">
