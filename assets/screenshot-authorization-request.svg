@@ -9,7 +9,7 @@
             transform-origin: center;
             transform-box: content-box;
             transform-style: preserve-3d;
-            animation: 10s flip ease-in-out infinite;
+            animation: 20s flip ease-in-out infinite;
             perspective: 10m;
         }
         @keyframes flip {
@@ -68,28 +68,19 @@
             filter: drop-shadow( 10px 10px 10px rgba(0, 0, 0, .25));
         }
         image:nth-of-type(1) {
-            <!-- backface-visibility: hidden; -->
+            backface-visibility: hidden;
             transform-box: fill-box;
             transform-origin: center;
             transform-style: preserve-3d;
             transform: rotateY(180deg);
-
-            <!-- animation: 10s flipLight ease-in-out infinite; -->
         }
         image:nth-of-type(2) {
             transform-style: preserve-3d;
             backface-visibility: hidden;
             transform-box: fill-box;
             transform-origin: center;
-            <!-- display: none; -->
-            animation: 10s dark ease-in-out infinite;
+            animation: 20s dark ease-in-out infinite;
         }
-        <!-- g#dashboard > #dark {
-            backface-visibility: hidden;
-        }
-        g#dashboard > #light { 
-            backface-visibility: hidden; 
-        } -->
     </style>
     <g id="dashboard">
         <use id="light" xlink:href="#_Image1" x="0" y="0" width="940px" height="1614px" transform="matrix(3.125,0,0,3.125,250,290.625)"/>
