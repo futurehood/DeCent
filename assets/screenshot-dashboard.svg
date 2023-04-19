@@ -81,7 +81,7 @@
             backface-visibility: hidden;
             transform-box: fill-box;
             transform-origin: center;
-            animation: 10s dark ease-in-out infinite;
+            animation: 20s dark ease-in-out infinite;
         }
     </style>
     <g id="dashboard">
