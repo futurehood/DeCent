@@ -71,7 +71,7 @@
             transform-style: preserve-3d;
             transform: rotateY(180deg);
             <!-- animation: 10s flipLight ease-in-out infinite; -->
-            filter: drop-shadow( 10px 10px 10px rgba(255, 255, 255, .1));
+            filter: drop-shadow( 10px 10px 10px rgba(125, 125, 125, .1));
         }
         image:nth-of-type(2) {
             transform-style: preserve-3d;
@@ -80,7 +80,7 @@
             transform-origin: center;
             <!-- display: none; -->
             animation: 10s dark ease-in-out infinite;     
-            filter: drop-shadow( 10px 10px 10px rgba(255, 255, 255, .1));
+            filter: drop-shadow( 10px 10px 10px rgba(125, 125, 125, .1));
         }
         <!-- g#dashboard > #dark {
             backface-visibility: hidden;
