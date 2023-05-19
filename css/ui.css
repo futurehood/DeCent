@@ -5,32 +5,32 @@
 ************************************************************/
 @font-face {
     font-family: "JetBrains Mono";
-    src: url("/lp/fonts/JetBrainsMono-VariableFont_wght.ttf");
+    src: url("/fonts/JetBrainsMono-VariableFont_wght.ttf");
     font-weight: 1 999;
 }
 @font-face {
     font-family: "Roboto Mono";
-    src: url("/lp/fonts/RobotoMono-VariableFont_wght.ttf");
+    src: url("/fonts/RobotoMono-VariableFont_wght.ttf");
     font-weight: 1 999;
 }
 @font-face {
     font-family: "Roboto Mono Italic";
-    src: url("/lp/fonts/RobotoMono-Italic-VariableFont_wght.ttf");
+    src: url("/fonts/RobotoMono-Italic-VariableFont_wght.ttf");
     font-weight: 1 999;
 }
 @font-face {
     font-family: "Oxanium";
-    src: url("/lp/fonts/Oxanium-VariableFont_wght.ttf");
+    src: url("/fonts/Oxanium-VariableFont_wght.ttf");
     font-weight: 1 999;
 }
 
 /*@font-face {*/
 /*    font-family: 'ui';*/
-/*    src: url('/lp/fonts/ui.eot?r0mew');*/
-/*    src: url('/lp/fonts/ui.eot?r0mew#iefix') format('embedded-opentype'),*/
-/*    url('/lp/fonts/ui.ttf?r0mew') format('truetype'),*/
-/*    url('/lp/fonts/ui.woff?r0mew') format('woff'),*/
-/*    url('/lp/fonts/ui.svg?r0mew#ui') format('svg');*/
+/*    src: url('/fonts/ui.eot?r0mew');*/
+/*    src: url('/fonts/ui.eot?r0mew#iefix') format('embedded-opentype'),*/
+/*    url('/fonts/ui.ttf?r0mew') format('truetype'),*/
+/*    url('/fonts/ui.woff?r0mew') format('woff'),*/
+/*    url('/fonts/ui.svg?r0mew#ui') format('svg');*/
 /*    font-weight: normal;*/
 /*    font-style: normal;*/
 /*    font-display: block;*/
@@ -80,7 +80,7 @@ body {
     background-color: #6816ff;
     background-color: #6105f5;
     /* background-color: #e300ba; */
-    background: url("/lp/images/bg.svg") repeat #6b31c0;
+    background: url("/images/bg.svg") repeat #6b31c0;
     background-size: 25%;
     color: #fff;
 }
@@ -149,7 +149,7 @@ header:after {
 ************************************************************/
 a.next {
     display: block;
-    background: url("/lp/images/next.svg") no-repeat;
+    background: url("/images/next.svg") no-repeat;
     width: var(--next-width);
     height: var(--next-height);
     animation: 5s next ease-in-out infinite;
@@ -203,12 +203,12 @@ a.next {
 }
 hr.f{
     height: 3vw;
-    background: url("/lp/images/hr-f.svg") no-repeat;
+    background: url("/images/hr-f.svg") no-repeat;
     background-size: cover;
 }
 hr.s{
     height: 7vw;
-    background: url("/lp/images/hr-s.svg") no-repeat;
+    background: url("/images/hr-s.svg") no-repeat;
     background-size: cover;
 }
 /************************************************************

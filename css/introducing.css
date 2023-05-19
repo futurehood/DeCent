@@ -8,12 +8,12 @@
     --line-size-3: 18vw;
     --total-line-height: var(--line-size-1) + var(--line-size-2) + var(--line-size-3);
 
-    --natural-ting-url: url("/lp/images/natural-ting.svg");
-    --pedestal-url: url("/lp/images/pedestal.svg");
-    --aside-before-url: url("/lp/images/natural-ting.svg");
-    --escape-babylon-url: url("/lp/images/escape-babylon.svg");
-    --bongbong-url: url("/lp/images/bongbong.svg");
-    --foretold-url: url("/lp/images/foretold-by-prophecy.svg");
+    --natural-ting-url: url("/images/natural-ting.svg");
+    --pedestal-url: url("/images/pedestal.svg");
+    --aside-before-url: url("/images/natural-ting.svg");
+    --escape-babylon-url: url("/images/escape-babylon.svg");
+    --bongbong-url: url("/images/bongbong.svg");
+    --foretold-url: url("/images/foretold-by-prophecy.svg");
 
     --picture1-img-float: none;
     --picture1-img-width: 100%;
@@ -303,7 +303,7 @@
 }
 #introducing>figure>picture{
     display: block;
-    content: url("/lp/images/web420-nu.svg");
+    content: url("/images/web420-nu.svg");
     box-sizing: border-box;
     position: relative;
     top: var(--web420-top);
@@ -314,7 +314,7 @@
     padding: var(--web420-padding-top) 0 0 var(--web420-padding-left);
 }
 #introducing:target>figure>picture{
-    content: url("/lp/images/web420-nu.svg#play");
+    content: url("/images/web420-nu.svg#play");
 }
 #introducing>figure>h2{
     display: block;
@@ -357,7 +357,7 @@
     width: var(--picture1-img-width);
 }
 #introducing:target>picture:nth-of-type(1)>img {
-    content: url("/lp/images/lion.svg#play");
+    content: url("/images/lion.svg#play");
 }
 #introducing>picture:nth-of-type(1):before{
     display: var(--picture1-before-display);
@@ -565,7 +565,7 @@
 }
 #introducing>picture:nth-of-type(2){
     display: block;
-    content: url("/lp/images/praise-jah.svg");
+    content: url("/images/praise-jah.svg");
     box-sizing: border-box;
     position: relative;
     top: var(--picture2-top);
@@ -577,11 +577,11 @@
     padding: 0 var(--picture2-padding-right) var(--picture2-padding-bottom) var(--picture2-padding-left);
 }
 #introducing:target>picture:nth-of-type(2){
-    content: url("/lp/images/praise-jah.svg#play");
+    content: url("/images/praise-jah.svg#play");
 }
 #introducing>picture:nth-of-type(3){
     display: block;
-    content: url("/lp/images/blaze.svg");
+    content: url("/images/blaze.svg");
     box-sizing: border-box;
     position: relative;
     top: var(--blaze-top);
@@ -593,7 +593,7 @@
 }
 #introducing:target>picture:nth-of-type(3) {
     display: block;
-    content: url("/lp/images/blaze.svg#play");
+    content: url("/images/blaze.svg#play");
 }
 #introducing>strong{
     display: block;

@@ -29,7 +29,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    background: url('/lp/images/bubble2.svg') center no-repeat;
+    background: url('/images/bubble2.svg') center no-repeat;
     transform: rotate(-10deg);
     animation: 4s yay 1s linear infinite;
     animation-play-state: paused;
@@ -90,18 +90,18 @@
     width: 33.33%;
 }
 #info>picture:nth-of-type(1) {
-    content: url("/lp/images/h2h.svg");
+    content: url("/images/h2h.svg");
     padding: 1em;
 }
 #info:target>picture:nth-of-type(1){
-    content: url("/lp/images/h2h.svg#play");
+    content: url("/images/h2h.svg#play");
 }
 #info>picture:nth-of-type(2) {
-    content: url("/lp/images/seed-of-life.svg");
+    content: url("/images/seed-of-life.svg");
     padding: 1em;
 }
 #info:target>picture:nth-of-type(2) {
-    content: url("/lp/images/seed-of-life.svg#play");
+    content: url("/images/seed-of-life.svg#play");
 }
 #info>h3 {
     display: block;
@@ -128,13 +128,13 @@
 }
 #info>figure>picture{
     display: block;
-    content: url("/lp/images/peer-connection-yesh-demo.svg");
+    content: url("/images/peer-connection-yesh-demo.svg");
     width: 100%;
     max-height: 45vh;
     margin: 0 auto;
 }
 #info:target>figure>picture{
-    content: url("/lp/images/peer-connection-yesh-demo.svg#play");
+    content: url("/images/peer-connection-yesh-demo.svg#play");
 }
 #info>figure>figcaption{
     padding: 0 4vw;
