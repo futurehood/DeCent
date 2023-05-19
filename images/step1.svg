@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <style>
+        svg {
+            animation-play-state: inherit;
+        }
+        #icon {
+            opacity: 0;
+            animation: 10s reveal-icon linear infinite;
+            animation-play-state: inherit;
+        }
+        #icon > circle {
+            fill: #fff;
+            fill-opacity: .25;
+            stroke: #fff;
+            stroke-width: .15em;
+        }
+        #icon > g > circle {
+            fill: #fff;
+        }
+        @keyframes reveal-icon {
+            38% {
+                opacity: 0;
+            }
+            40% { 
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            95% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #check {
+            opacity: 0;
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: 10s reveal-check linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes reveal-check {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0;
+                transform: scale(1)
+            }
+            52% {
+                transform: scale(1.2);
+            }
+            55% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            90% {
+                opacity: 1;
+            }
+            95% {
+                opacity: 0;
+            }
+        }
+        #arrow {
+            animation: 10s arrow linear infinite;
+            animation-play-state: inherit;
+        }
+
+        @keyframes arrow {
+            0% {
+                transform: translateX(-5em);
+            }
+            5% {
+                transform: translateX(0);
+            }
+            10% {
+                transform: translateX(-5em);
+            }
+            15% {
+                transform: translateX(0);
+                opacity: 1;
+
+            }
+            17.5% {
+                transform: translateX(-5em);
+                opacity: 0;
+            }
+            22% {
+                transform: translateX(0);
+            }
+            22.5% {
+                opacity: 1;
+            }
+            23% {
+                opacity: 0;
+            }
+            70% {
+                transform: translateX(0);
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #crest {
+            animation: 10s crest linear infinite;
+            animation-play-state: inherit;
+        }
+        #crest > circle {
+            fill: #fff;
+        }
+        @keyframes crest {
+            0% {
+                opacity: 1;
+            }
+            20% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+            27.5% {
+                transform: translateX(-30em);
+            }
+            33% {
+                opacity: 1;
+            }
+            35% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+                transform: translateX(-30em);
+            }
+        }
+        #device > #screen {
+            fill:#fff;
+            fill-opacity: .25;
+            stroke:#fff;
+            stroke-width: .25em;
+        }
+        #arrow {
+            fill: #32ffad;
+            stroke:none;
+        }
+        #check {
+            fill: #32ffad;
+        }
+        #play *{
+            animation-play-state: paused;
+        }
+        #play:target *{
+            animation-play-state: running;
+        }
+    </style>
+    <g id="play">
+        <g id="device">
+        <path d="M511.929,81.422c-0,-16.815 -13.652,-30.467 -30.467,-30.467l-386.509,0c-16.815,0 -30.466,13.652 -30.466,30.467l-0,823.753c-0,16.815 13.651,30.466 30.466,30.466l386.509,0c16.815,0 30.467,-13.651 30.467,-30.466l-0,-823.753Z" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+            <path id="screen" d="M490.653,120.591c-0,-15.215 -12.354,-27.568 -27.569,-27.568l-349.752,-0c-15.216,-0 -27.569,12.353 -27.569,27.568l-0,745.414c-0,15.216 12.353,27.569 27.569,27.569l349.752,0c15.215,0 27.569,-12.353 27.569,-27.569l-0,-745.414Z" style=""/>
+            <circle cx="465.559" cy="72.786" r="5.896" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+    </g>
+        <g id="crest">
+        <circle cx="688.528" cy="420.142" r="28.213"/>
+            <circle cx="688.528" cy="304.515" r="28.213"/>
+            <path d="M689.442,304.27l-0,350.282l207.51,-118.761l0,-115.76l-207.51,-115.761Z" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+            <path d="M689.442,537.934l207.51,-2.143" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+            <path d="M689.442,422.174l207.51,-2.143" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+            <circle cx="896.656" cy="420.142" r="28.213"/>
+            <circle cx="688.528" cy="535.768" r="28.213"/>
+            <circle cx="688.528" cy="651.394" r="28.213"/>
+            <circle cx="896.656" cy="535.768" r="28.213"/>
+            <path d="M692.091,538.844l204.507,-118.577" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+            <path d="M898.099,537.718l-208.635,-116.325" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+    </g>
+        <g id="icon">
+        <circle cx="293.446" cy="484.752" r="122.562"/>
+            <g>
+            <circle cx="252.011" cy="460.042" r="11.712"/>
+                <circle cx="252.011" cy="412.042" r="11.712"/>
+                <path d="M252.39,411.941l-0,145.411l86.143,-49.301l-0,-48.055l-86.143,-48.055Z" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <path d="M252.39,508.941l86.143,-0.89" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <path d="M252.39,460.886l86.143,-0.89" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <circle cx="338.41" cy="460.042" r="11.712"/>
+                <circle cx="252.011" cy="508.042" r="11.712"/>
+                <circle cx="252.011" cy="556.041" r="11.712"/>
+                <circle cx="338.41" cy="508.042" r="11.712"/>
+                <path d="M253.489,509.319l84.897,-49.225" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <path d="M339.009,508.851l-86.61,-48.289" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+        </g>
+    </g>
+        <path id="arrow" d="M620.303,518.846l-199.178,-0l-0,72.709l-111.861,-111.861l111.861,-111.86l-0,72.709l198.982,0l0.196,78.303Z"/>
+        <path id="check" d="M708.609,537.094c-0,0 -68.97,-68.969 -84.012,-84.012c-1.588,-1.587 -4.162,-1.587 -5.749,0c-8.277,8.277 -32.102,32.101 -40.379,40.379c-0.762,0.762 -1.191,1.796 -1.191,2.874c0,1.078 0.429,2.112 1.191,2.875c17.683,17.683 111.534,111.533 129.217,129.216c0.762,0.763 1.796,1.191 2.874,1.191c1.079,0 2.113,-0.428 2.875,-1.191c8.032,-8.032 30.128,-30.128 30.128,-30.128l0.308,-0.308c0,0 195.14,-195.14 221.248,-221.247c0.762,-0.763 1.19,-1.797 1.19,-2.875c0,-1.078 -0.428,-2.112 -1.19,-2.874c-8.587,-8.587 -33.98,-33.98 -42.566,-42.566c-0.763,-0.763 -1.797,-1.191 -2.875,-1.191c-1.078,-0 -2.112,0.428 -2.874,1.191c-25.227,25.226 -207.98,207.979 -207.98,207.979"/>
+    </g>
+</svg>

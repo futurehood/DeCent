@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="Artboard1" x="0" y="0" width="500" height="500" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect id="Artboard11" serif:id="Artboard1" x="0" y="0" width="500" height="500"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <rect x="0.437" y="0.291" width="499.126" height="499.417" style="fill:none;"/>
+        <path d="M0.379,0l-0,500" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+        <path d="M200.321,499.417l-0,-499.708" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+        <path d="M300.379,0l-0,500" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+        <path d="M0.495,399.825l500,0" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+        <path d="M0.495,499.825l500,0" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+        <path d="M499.913,299.883l-499.709,0" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+        <path d="M0.495,199.825l500,0" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+        <path d="M499.913,99.883l-499.709,0" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+    </g>
+    <path d="M500.321,499.417l-0,-499.708" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+    <path d="M499.913,-0.117l-499.709,0" style="fill:none;stroke:#906acd;stroke-width:1px;"/>
+</svg>

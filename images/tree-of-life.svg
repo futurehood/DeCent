@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4167 4167" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+     xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="Artboard1" x="0" y="0" width="4166.67" height="4166.67" style="fill:none;"/>
+    <g id="Artboard11" serif:id="Artboard1">
+        <g id="circle">
+            <g>
+                <path d="M2083.33,2083.33c-258.158,447.146 -830.775,600.575 -1277.92,342.417c-447.145,-258.158 -600.579,-830.775 -342.416,-1277.92c258.158,-447.141 830.775,-600.575 1277.92,-342.416c447.141,258.158 600.575,830.775 342.416,1277.92Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+                <path d="M1277.22,1617.92c-1.292,2.237 -4.155,3.004 -6.392,1.712c-2.237,-1.291 -3.004,-4.154 -1.713,-6.391c1.292,-2.234 4.155,-3 6.392,-1.713c2.233,1.292 3,4.154 1.713,6.392Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+            </g>
+        </g>
+        <g id="circle1" serif:id="circle">
+            <g>
+                <path d="M3703.67,3018.84c-258.159,447.141 -830.775,600.575 -1277.92,342.416c-447.142,-258.158 -600.575,-830.775 -342.417,-1277.92c258.159,-447.146 830.775,-600.575 1277.92,-342.416c447.146,258.158 600.579,830.775 342.417,1277.92Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+                <path d="M2897.55,2553.43c-1.291,2.233 -4.154,3 -6.391,1.712c-2.234,-1.291 -3,-4.154 -1.713,-6.391c1.292,-2.238 4.154,-3.004 6.392,-1.713c2.237,1.292 3.004,4.155 1.712,6.392Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+            </g>
+        </g>
+        <g id="circle2" serif:id="circle">
+            <g>
+                <path d="M2083.33,2083.33c258.159,447.146 104.725,1019.76 -342.416,1277.92c-447.146,258.159 -1019.76,104.725 -1277.92,-342.416c-258.163,-447.146 -104.729,-1019.76 342.416,-1277.92c447.146,-258.159 1019.76,-104.729 1277.92,342.416Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+                <path d="M1277.22,2548.75c1.287,2.237 0.52,5.1 -1.713,6.391c-2.237,1.288 -5.1,0.521 -6.392,-1.712c-1.291,-2.238 -0.524,-5.1 1.713,-6.392c2.237,-1.291 5.1,-0.525 6.392,1.713Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+            </g>
+        </g>
+        <g id="circle3" serif:id="circle">
+            <g>
+                <path d="M3703.67,1147.83c258.162,447.146 104.729,1019.76 -342.417,1277.92c-447.146,258.158 -1019.76,104.729 -1277.92,-342.417c-258.158,-447.145 -104.725,-1019.76 342.417,-1277.92c447.146,-258.159 1019.76,-104.725 1277.92,342.416Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+                <path d="M2897.55,1613.24c1.292,2.237 0.525,5.1 -1.712,6.391c-2.238,1.292 -5.1,0.525 -6.392,-1.712c-1.287,-2.238 -0.521,-5.1 1.713,-6.392c2.237,-1.287 5.099,-0.521 6.391,1.713Z" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+            </g>
+        </g>
+        <g id="circle4" serif:id="circle">
+            <g>
+                <circle cx="2083.33" cy="3018.84" r="935.504" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+                <circle cx="2083.33" cy="3018.84" r="4.679" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+            </g>
+            <g>
+                <circle cx="2083.33" cy="2083.33" r="937.5" style="fill:none;stroke:#a568ff;stroke-width:33.33px;"/>
+                <circle cx="2083.33" cy="2083.33" r="4.689" style="fill:none;stroke:#a568ff;stroke-width:53.2px;"/>
+            </g>
+            <g>
+                <ellipse cx="2083.33" cy="2083.33" rx="1886.09" ry="1878.97" style="fill:none;stroke:#a568ff;stroke-width:41.67px;"/>
+                <circle cx="2083.33" cy="2083.33" r="9.398" style="fill:none;stroke:#a568ff;stroke-width:106.62px;"/>
+            </g>
+        </g>
+        <g id="circle5" serif:id="circle">
+            <g>
+                <circle cx="2083.33" cy="1147.83" r="935.504" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+                <circle cx="2083.33" cy="1147.83" r="4.679" style="fill:none;stroke:#a568ff;stroke-width:53.08px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

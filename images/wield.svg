@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <style>
+        #hand > path {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .35em;
+        }
+        #hand > path.shape {
+            fill: #ab53ff;
+        }
+        #hand > *:not(.shape) {
+            fill: #fff;
+            stroke: none;
+        }
+        #pwr > g > ellipse, #pwr > g > path, #pwr > g > circle {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .35em;
+        }
+        #pwr {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: 10s hover ease-in-out infinite;
+        }
+        #pwr > .rotate {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: 20s engage ease-in-out forwards infinite;
+            animation-play-state: var(--play-state);
+        }
+        #crest > .container {
+            fill: #6816ff;
+            stroke:#fff;
+            stroke-width:.5em;
+        }
+        g#crest > circle {
+            stroke: none;
+            fill: #61b0c4;
+        }
+        g#crest > path {
+            stroke: #61b0c4;
+            stroke-width: .2em;
+            fill: none;
+        }
+        .geom > * {
+            transform-origin: center;
+            transform-box: fill-box;
+            opacity: .35;
+            fill: none;
+            stroke: #fff;
+            stroke-width: .15em;
+            animation: 4s pulse linear infinite;
+            animation-play-state: var(--play-state);
+        }
+        use[href="#geom"] {
+            transform-origin: center;
+            transform-box: fill-box;
+        }
+        @keyframes hover {
+            0% {
+                transform: translateY(0);
+            }
+            25% {
+                transform: translateY(-2em);
+            }
+            50% {
+                transform: translateY(0);
+            }
+            75% {
+                transform: translateY(-2em);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        @keyframes engage {
+            0% {
+                transform: rotate(0deg);
+            }
+            10% {
+                transform: rotate(0deg);
+            }
+            15% {
+                transform: rotate(90deg);
+            }
+            25% {
+                transform: rotate(90deg);
+            }
+            30% {
+                transform: rotate(150deg);
+            }
+            40% {
+                transform: rotate(150deg);
+            }
+            50% {
+                transform: rotate(-90deg);
+            }
+            65% {
+                transform: rotate(-90deg);
+            }
+            70% {
+                transform: rotate(90deg);
+            }
+            90% {
+                transform: rotate(90deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+        @keyframes pulse {
+            0% {
+                opacity: .35;
+                transform: scale(.15);
+            }
+            80% {
+                opacity: .35;
+            }
+            100% {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+        #play {
+            --play-state: paused;
+        }
+        #play *{
+            animation-play-state: paused;
+        }
+        #play:target {
+            --play-state: running;
+        }
+        #play:target *{
+            animation-play-state: running;
+        }
+    </style>
+    <g id="play">
+        <symbol id="geom">
+            <g class="geom">
+                <ellipse cx="429.5" cy="308.71" rx="150.866" ry="152.552"/>
+                <path d="M430,99.379l0,416.15"/>
+                <path d="M247.341,204.542l365.042,210.757"/>
+                <path d="M612.412,204.684l-365.265,210.886"/>
+                <path d="M561.997,233.691l-131.994,228.618"/>
+                <path d="M298.003,233.691l131.994,228.618"/>
+                <path d="M298.003,233.691l0,152.386l131.848,76.829"/>
+                <path d="M298.007,233l263.986,0"/>
+                <path d="M561.993,233l0,151.492l-131.863,77.99"/>
+                <path d="M561.993,385.482l0,-151.491l-131.863,-77.991"/>
+                <path d="M298.13,385.482l0,-151.491l131.863,-77.991"/>
+                <circle cx="429.93" cy="101.826" r="31.826"/>
+                <circle cx="429.93" cy="518.174" r="31.826"/>
+                <circle cx="612.93" cy="414.174" r="31.826"/>
+                <circle cx="249.93" cy="414.174" r="31.826"/>
+                <circle cx="611.93" cy="204.174" r="31.826"/>
+                <circle cx="248.93" cy="204.174" r="31.826"/>
+                <path d="M247,204.26l0,209.627"/>
+                <path d="M613,204.26l0,211.966"/>
+                <path d="M429.628,98.667l-181.688,104.732"/>
+                <path d="M429.628,98.667l183.016,104.349"/>
+                <path d="M429.899,517.446l182.907,-100.704"/>
+                <path d="M429.899,517.446l-182.502,-101.201"/>
+            </g>
+        </symbol>
+        <g id="hand">
+            <path class="shape" d="M436.214,598.645c-8.519,-7.152 -16.345,-17.275 -21.027,-26.725c0.116,-6.464 4.902,-8.059 12.289,-6.941c22.705,11.937 53.934,26.011 73.731,29.691c10.683,1.986 14.745,8.185 42.165,22.934c22.333,12.013 33.669,11.915 52.061,16.295l50.878,11.12c12.653,2.501 38.195,24.113 59.216,49.866c62.147,76.14 125.364,128.479 188.439,183.952l-84.49,87.266l-170.517,-217.172c-4.649,-3.073 -8.807,-3.768 -12.895,-4.123c-74.563,-6.017 -76.653,29.886 -141.748,22.468c-23.732,-7.019 -50.369,-11.425 -81.931,-11.404c-10.596,5.836 -48.12,8.666 -68.116,7.981l-87.039,-6.989c-13.846,-1.789 -17.148,-9.709 -9.729,-11.9c24.79,-7.32 51.224,-9.866 79.37,-7.437c-20.644,-16.997 -43.356,-33.266 -70.153,-48.096c-2.921,-3.47 -1.979,-6.941 4.609,-10.412c10.365,-1.037 22.396,-0.461 38.917,4.462c16.193,4.953 32.921,11.131 55.302,30.246c4.88,3.312 8.577,3.951 11.778,3.471c-8.176,-28.929 -14.826,-54.51 -31.748,-102.636c1.393,-7.967 5.863,-9.312 12.289,-6.446c5.877,2.392 12.358,6.498 26.116,31.237c5.188,7.461 10.638,19.482 16.386,36.691l14.85,29.254c6.375,6.895 13.036,8.803 19.97,5.95c-6.855,-11.69 -8.469,-23.943 -5.257,-36.715c6.852,-16.988 10.904,-26.782 25.739,-75.342c2.247,-2.425 5.196,-3.49 10.242,-0.496c5.425,3.22 8.041,4.813 5.632,23.304c-2.298,17.642 -9.217,25.71 -13.825,50.574c3.892,12.692 9.649,21.17 16.898,26.279c25.895,-10.888 50.639,-25.117 73.737,-44.129c1.324,-13.25 -41.785,-25.423 -75.975,-45.997"/>
+            <path d="M418.852,710.287c18.38,37.938 53.666,44.744 56.191,54.423l-28.533,-6.458c12.499,-5.895 -7.624,-2.296 -33.86,-44.935l6.202,-3.03Z"/>
+            <path d="M315.856,739.571c-0.01,-0.009 3.24,-3.881 3.242,-3.88c0.963,0.815 27.832,23.222 39.262,27.271c-2.49,-0.172 -5.767,-0.913 -11.653,-0.525c0.292,0.651 -16.944,-10.639 -30.851,-22.866Z"/>
+            <path d="M354.554,719.569c2.967,10.406 9.655,23.871 19.986,29.375c8.985,4.786 12.6,4.061 21.341,4.35c2.368,0.078 -0.288,3.642 0.806,3.43c0.594,-0.115 1.179,-0.224 1.756,-0.327c14.765,-2.644 23.889,-1.487 41.181,0.62c5.211,0.635 -11.72,-3.126 -16.766,-4.539c-5.155,-1.445 -10.478,-2.289 -15.781,-3.085c-9.635,-1.447 -19.515,-1.489 -29.008,-3.641c-2.364,-0.536 -4.167,-2.522 -5.811,-4.252c-5.173,-5.448 -10.239,-20.181 -11.31,-25.437"/>
+            <path d="M453.265,702.382c15.987,6.215 30.307,5.639 41.999,11.411c12.321,-8.733 25.155,-14.003 56.379,-13.352c4.79,-0.075 6.79,-1.501 7.854,-3.38c-19.175,-3.469 -40.263,-1.135 -63.409,10.763c-10.845,-4.529 -24.332,-6.045 -37.396,-9.619l-5.427,4.177Z"/>
+        </g>
+        <g id="pwr">
+            <g class="pwr-stack">
+                <use href="#geom" x="5"  y="5" />
+                <use href="#geom" x="5"  y="5" style="animation-delay: 1s;" />
+                <use href="#geom" x="5"  y="5" style="animation-delay: 2s;" />
+                <use href="#geom" x="5"  y="5" style="animation-delay: 3s;" />
+                <use href="#geom" x="5"  y="5" style="animation-delay: 4s;" />
+                <use href="#geom" x="5"  y="5" style="animation-delay: 5s;" />
+                <use href="#geom" x="5"  y="5" style="animation-delay: 6s;" />
+                <use href="#geom" x="5"  y="5" style="animation-delay: 7s;" />
+            </g>
+            <g class="rotate">
+                <ellipse cx="429.5" cy="308.71" rx="150.866" ry="152.552"/>
+                <path d="M430,99.379l0,416.15"/>
+                <path d="M247.341,204.542l365.042,210.757"/>
+                <path d="M612.412,204.684l-365.265,210.886"/>
+                <path d="M561.997,233.691l-131.994,228.618"/>
+                <path d="M298.003,233.691l131.994,228.618"/>
+                <path d="M298.003,233.691l0,152.386l131.848,76.829"/>
+                <path d="M298.007,233l263.986,0"/>
+                <path d="M561.993,233l0,151.492l-131.863,77.99"/>
+                <path d="M561.993,385.482l0,-151.491l-131.863,-77.991"/>
+                <path d="M298.13,385.482l0,-151.491l131.863,-77.991"/>
+                <circle cx="429.93" cy="101.826" r="31.826"/>
+                <circle cx="429.93" cy="518.174" r="31.826"/>
+                <circle cx="612.93" cy="414.174" r="31.826"/>
+                <circle cx="249.93" cy="414.174" r="31.826"/>
+                <circle cx="611.93" cy="204.174" r="31.826"/>
+                <circle cx="248.93" cy="204.174" r="31.826"/>
+                <path d="M247,204.26l0,209.627"/>
+                <path d="M613,204.26l0,211.966"/>
+                <path d="M429.628,98.667l-181.688,104.732"/>
+                <path d="M429.628,98.667l183.016,104.349"/>
+                <path d="M429.899,517.446l182.907,-100.704"/>
+                <path d="M429.899,517.446l-182.502,-101.201"/>
+            </g>
+            <g id="crest">
+                <circle class="container" cx="430" cy="310" r="66.637"/>
+                <circle cx="407.471" cy="296.565" r="6.368"/>
+                <circle cx="407.471" cy="270.468" r="6.368"/>
+                <path d="M407.677,270.413l0,79.06l46.837,-26.805l-0,-26.128l-46.837,-26.127Z"/>
+                <path d="M407.677,323.152l46.837,-0.484"/>
+                <path d="M407.677,297.024l46.837,-0.484"/>
+                <circle cx="454.447" cy="296.565" r="6.368"/>
+                <circle cx="407.471" cy="322.663" r="6.368"/>
+                <circle cx="407.471" cy="348.76" r="6.368"/>
+                <circle cx="454.447" cy="322.663" r="6.368"/>
+                <path d="M408.275,323.357l46.159,-26.763"/>
+                <path d="M454.772,323.103l-47.089,-26.255"/>
+            </g>
+        </g>
+    </g>
+</svg>

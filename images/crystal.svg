@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 620" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+     xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="Artboard1" x="0" y="0" width="400" height="619.518" style="fill:none;"/>
+    <style>
+        svg{
+            --t-angle-x: 35deg;
+            --t-move-y: 2.075em;
+            --m-move-z: 6.9em;
+            --b-angle-x: -35deg;
+            --b-move-y: -2.08em;
+        }
+        #crystal{
+            transform-origin: center;
+            transform-box: fill-box;
+            transform-style: preserve-3d;
+            animation: 15s spin linear infinite;
+        }
+        #crystal>path{
+        <!--            backface-visibility: hidden;-->
+        }
+        @keyframes spin {
+            100%{
+                transform: rotateY(360deg);
+            }
+        }
+        #s1t{
+            transform-origin: top center;
+            transform: rotateX(var(--t-angle-x)) translateY(var(--t-move-y));
+        }
+        #s1m{
+            transform: translateZ(var(--m-move-z));
+        }
+        #s1b{
+            transform-origin: bottom center;
+            transform: rotateX(var(--b-angle-x)) translateY(var(--b-move-y));
+        }
+        #s2t{
+            transform-origin: top center;
+            transform: rotateY(60deg) rotateX(var(--t-angle-x)) translateY(var(--t-move-y));
+        }
+        #s2m{
+            transform: rotateY(60deg) translateZ(var(--m-move-z));
+        }
+        #s2b{
+            transform-origin: bottom center;
+            transform: rotateY(60deg) rotateX(var(--b-angle-x)) translateY(var(--b-move-y));
+        }
+
+    </style>
+    <g id="crystal">
+        <path id="s1t" d="M250.994,158.822l-49.963,-150l-50.037,150l100,-0Z" style="fill:#00ff96;fill-opacity:0.5;stroke:#0fa;stroke-width:1.82px;"/>
+        <rect id="s1m" x="150.994" y="158.87" width="100.001" height="300" style="fill:#00ff96;fill-opacity:0.5;stroke:#0fa;stroke-width:1.82px;"/>
+        <path id="s1b" d="M250.994,458.822l-49.963,150l-50.037,-150l100,-0Z" style="fill:#00ff96;fill-opacity:0.5;stroke:#0fa;stroke-width:1.82px;"/>
+        <path id="s2t" d="M250.994,158.822l-49.963,-150l-50.037,150l100,-0Z" style="fill:#00ff96;fill-opacity:0.5;stroke:#0fa;stroke-width:1.82px;"/>
+        <rect id="s2m" x="150.994" y="158.87" width="100.001" height="300" style="fill:#00ff96;fill-opacity:0.5;stroke:#0fa;stroke-width:1.82px;"/>
+        <path id="s2b" d="M250.994,458.822l-49.963,150l-50.037,-150l100,-0Z" style="fill:#00ff96;fill-opacity:0.5;stroke:#0fa;stroke-width:1.82px;"/>
+    </g>
+
+</svg>
