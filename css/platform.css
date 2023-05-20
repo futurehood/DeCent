@@ -3,10 +3,10 @@
     --pink: #f700ff;
     --green: #09ffdc;
 
-    --go-green-url: url("/images/reduce-energy-usage.svg");
-    --master-url: url("/images/master-your-platform.svg");
-    --tree-url: url("/images/tree.svg");
-    --players-url: url("/images/p2p2p2p.svg");
+    --go-green-url: url("images/reduce-energy-usage.svg");
+    --master-url: url("images/master-your-platform.svg");
+    --tree-url: url("images/tree.svg");
+    --players-url: url("images/p2p2p2p.svg");
 
     --h1-float: left;
     --h1-width: 100%;
@@ -211,7 +211,7 @@
 }
 #platform>picture:nth-of-type(1) {
     display: block;
-    content: url("/images/platformless.svg");
+    content: url("images/platformless.svg");
     box-sizing: border-box;
     float: var(--picture1-float);
     clear: var(--picture1-clear);
@@ -220,7 +220,7 @@
     padding: 0;
 }
 #platform:target>picture:nth-of-type(1){
-    content: url("/images/platformless.svg#play");
+    content: url("images/platformless.svg#play");
 }
 #platform>p{
     display: block;

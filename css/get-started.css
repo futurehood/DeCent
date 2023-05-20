@@ -93,7 +93,7 @@
 }
 #get-started>picture:nth-of-type(1){
     display: block;
-    content: url("/images/ez-install.svg");
+    content: url("images/ez-install.svg");
     position: relative;
     top: var(--sticker-top);
     right: var(--sticker-right);
@@ -104,7 +104,7 @@
 }
 #get-started:target>picture:nth-of-type(1) {
     display: block;
-    content: url("/images/ez-install.svg#play");
+    content: url("images/ez-install.svg#play");
 }
 #get-started>p {
     display: block;
@@ -178,13 +178,13 @@
 }
 #get-started:target>form>input:indeterminate~ul>li:nth-of-type(1)>img,
 #get-started:target>form>input#step1:checked~ul>li:nth-of-type(1)>img{
-    content: url("/images/step1.svg#play");
+    content: url("images/step1.svg#play");
 }
 #get-started:target>form>input#step2:checked~ul>li:nth-of-type(2)>img{
-    content: url("/images/step2.svg#play");
+    content: url("images/step2.svg#play");
 }
 #get-started:target>form>input#step3:checked~ul>li:nth-of-type(3)>img{
-    content: url("/images/step3.svg#play");
+    content: url("images/step3.svg#play");
 }
 #get-started>form>ul>li>label,
 #get-started>form>ul>li>button,
@@ -279,7 +279,7 @@
 }
 #get-started>picture:nth-of-type(2) {
     display: block;
-    content: url("/images/snap-nu.svg");
+    content: url("images/snap-nu.svg");
     box-sizing: border-box;
     float: var(--snap-float);
     width: var(--snap-width);
@@ -287,7 +287,7 @@
     padding: var(--snap-padding-top) 0 var(--snap-padding-bottom) var(--snap-padding-left);
 }
 #get-started:target>picture:nth-of-type(2){
-    content: url("/images/snap-nu.svg#play");
+    content: url("images/snap-nu.svg#play");
 }
 #get-started>h3 {
     position: relative;

@@ -92,7 +92,7 @@
 }
 #overview>picture:nth-of-type(1){
     display: block;
-    content: url("/images/skelly.svg");
+    content: url("images/skelly.svg");
     box-sizing: border-box;
     float: var(--figure-float);
     width: var(--figure-width);
@@ -100,12 +100,12 @@
     padding: var(--figure-padding-top) var(--figure-padding-right) 0 var(--figure-padding-left);
 }
 #overview:target>picture:nth-of-type(1){
-    content: url("/images/skelly.svg#play");
+    content: url("images/skelly.svg#play");
 }
 #overview>picture:nth-of-type(2){
     display: block;
     box-sizing: border-box;
-    content: url("/images/charge-up.svg");
+    content: url("images/charge-up.svg");
     float: var(--charge-up-float);
     clear: var(--charge-up-clear);
     width: var(--charge-up-width);
@@ -113,7 +113,7 @@
     padding: 0 2vw 0 0;
 }
 #overview:target>picture:nth-of-type(2){
-    content: url("/images/charge-up.svg#play");
+    content: url("images/charge-up.svg#play");
 }
 #overview>p{
     display: block;
@@ -143,7 +143,7 @@
 }
 #overview>picture:nth-of-type(3){
     display: block;
-    content: url("/images/star-tetrahedron.svg");
+    content: url("images/star-tetrahedron.svg");
     box-sizing: border-box;
     float: right;
     width: var(--tetrahedron-width);
@@ -151,11 +151,11 @@
     padding: 0 3vw 3vh 0;
 }
 #overview:target>picture:nth-of-type(3){
-    content: url("/images/star-tetrahedron.svg#play");
+    content: url("images/star-tetrahedron.svg#play");
 }
 #overview>picture:nth-of-type(4){
     display: block;
-    content: url("/images/wield.svg");
+    content: url("images/wield.svg");
     box-sizing: border-box;
     float: left;
     clear: left;
@@ -164,7 +164,7 @@
     padding: 0;
 }
 #overview:target>picture:nth-of-type(4) {
-    content: url("/images/wield.svg#play");
+    content: url("images/wield.svg#play");
 }
 #overview>hr.s{
     float: left;

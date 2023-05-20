@@ -70,14 +70,14 @@
 }
 #requirements>h1>picture {
     display: block;
-    content: url("/images/wip.svg");
+    content: url("images/wip.svg");
     box-sizing: border-box;
     float: left;
     width: var(--h1-img-width);
     padding: 2.5vw 2.5vw 0;
 }
 #requirements:target>h1>picture {
-    content: url("/images/wip.svg#play");
+    content: url("images/wip.svg#play");
 }
 #requirements>h1>span {
     display: block;
@@ -182,7 +182,7 @@
     margin: 0 auto;
 }
 #requirements>figure>section:first-of-type>ul>li>span:after {
-    content: url("/images/wow.svg");
+    content: url("images/wow.svg");
     display: var(--wow-display);
     box-sizing: border-box;
     width: var(--wow-width);
@@ -239,7 +239,7 @@
 }
 #requirements>picture:nth-of-type(1) {
     display: block;
-    content: url("/images/crystals.svg");
+    content: url("images/crystals.svg");
     position: var(--crystals-position);
     top: var(--crystals-top);
     left: var(--crystals-left);
@@ -249,7 +249,7 @@
     margin: var(--crystals-margin-top) 0 var(--crystals-margin-bottom);
 }
 #requirements>picture:nth-of-type(1) {
-    content: url("/images/crystals.svg#play");
+    content: url("images/crystals.svg#play");
 }
 #requirements>h2 {
     display: block;

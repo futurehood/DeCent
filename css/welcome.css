@@ -59,7 +59,7 @@
 #welcome>figure>picture {
     display: block;
     float: var(--picture-float);
-    content: url("/images/amuletz.svg");
+    content: url("images/amuletz.svg");
     box-sizing: border-box;
     width: var(--picture-width);
     height: calc(var(--picture-width) * .78);
@@ -82,7 +82,7 @@
     }
 }
 #welcome:target>figure>picture{
-    content: url("/images/amuletz.svg#play");
+    content: url("images/amuletz.svg#play");
 }
 #welcome>figure>h1 {
     display: block;
