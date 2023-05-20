@@ -1,5 +1,3 @@
-/*@import "introducing.css";*/
-
 /************************************************************
 * Fonts
 ************************************************************/
@@ -23,30 +21,15 @@
     src: url("../fonts/Oxanium-VariableFont_wght.ttf");
     font-weight: 1 999;
 }
-
-/*@font-face {*/
-/*    font-family: 'ui';*/
-/*    src: url('../fonts/ui.eot?r0mew');*/
-/*    src: url('../fonts/ui.eot?r0mew#iefix') format('embedded-opentype'),*/
-/*    url('../fonts/ui.ttf?r0mew') format('truetype'),*/
-/*    url('../fonts/ui.woff?r0mew') format('woff'),*/
-/*    url('../fonts/ui.svg?r0mew#ui') format('svg');*/
-/*    font-weight: normal;*/
-/*    font-style: normal;*/
-/*    font-display: block;*/
-/*}*/
-[class^="ui-"],
-[class*=" ui-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'ui' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/Quicksand-VariableFont_wght.ttf");
+    font-weight: 1 999;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik-VariableFont_wght.ttf");
+    font-weight: 1 999;
 }
 /************************************************************
 * Resets
@@ -83,6 +66,10 @@ body {
     background: url("../images/bg.svg") repeat #6b31c0;
     background-size: 25%;
     color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    -webkit-scrollbar-width: thin;
 }
 a {
     text-decoration: none;
@@ -105,10 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 * Structural
 ************************************************************/
 main {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    scrollbar-width: thin;
-    -webkit-scrollbar-width: thin;
+
 }
 main>section {
     display: block;
