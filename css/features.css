@@ -59,7 +59,7 @@
 }
 #features>picture:nth-of-type(1) {
     display: block;
-    content: url("images/enhanced-nonchalance.svg");
+    content: url("../images/enhanced-nonchalance.svg");
     position: var(--flower-position);
     top: var(--flower-top);
     left: var(--flower-left);
@@ -69,7 +69,7 @@
     margin: 0;
 }
 #features:target>picture:nth-of-type(1){
-    content: url("images/enhanced-nonchalance.svg#play");
+    content: url("../images/enhanced-nonchalance.svg#play");
 }
 #features>h1 {
     display: block;
@@ -161,7 +161,7 @@
     display: block;
     box-sizing: border-box;
     float: right;
-    content: url("images/support.svg");
+    content: url("../images/support.svg");
     width: var(--support-width);
     margin: 0 2vw -2vh 0;
     transform: rotate3d(0, 1, 0, 180deg);
@@ -169,7 +169,7 @@
 #features>picture:nth-of-type(3) {
     display: block;
     box-sizing: border-box;
-    content: url("images/egg_of_life.svg");
+    content: url("../images/egg_of_life.svg");
     float: var(--egg-float);
     position: var(--egg-position);
     top: var(--egg-top);
@@ -181,7 +181,7 @@
 #features>picture:nth-of-type(4) {
     display: block;
     box-sizing: border-box;
-    content: url("images/hamsa.svg");
+    content: url("../images/hamsa.svg");
     float: var(--hamsa-float);
     position: var(--hamsa-position);
     top: var(--hamsa-top);
@@ -192,7 +192,7 @@
 }
 #features>picture:nth-of-type(5) {
     display: block;
-    content: url("images/relax.svg");
+    content: url("../images/relax.svg");
     position: var(--relax-position);
     top: var(--relax-top);
     left: var(--relax-left);
@@ -254,7 +254,7 @@
 }
 #features>picture:nth-of-type(6) {
     display: block;
-    content: url("images/rest-easy.svg");
+    content: url("../images/rest-easy.svg");
     position: relative;
     top: var(--seal-top);
     right: 3vw;
@@ -868,7 +868,7 @@
         content: "!";
     }
     #features>ul:before {
-        content: url("images//h2h-rect.svg");
+        content: url("../images//h2h-rect.svg");
         float: left;
         width: 8vw;
         margin-right: 2vw;
@@ -936,7 +936,7 @@
         content: "!";
     }
     #features>ul:before {
-        content: url("images//h2h-rect.svg");
+        content: url("../images//h2h-rect.svg");
         float: left;
         width: 8vw;
         margin-right: 2vw;
