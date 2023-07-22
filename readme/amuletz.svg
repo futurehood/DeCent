@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 700 700" version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    xmlns="http://www.w3.org/2000/svg">
     <style>
+        svg{
+            fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;
+        }
         :root{
             --color1: #fff;
             --color2: #fff;
         }
         @media (prefers-color-scheme: light) {
             :root{
-                --color1: #f60;
-                --color2: #f60;
+                --color1: #0fc;
+                --color2: #9d54ff;
             }
         }
         .cnct {
@@ -30,12 +31,10 @@
         .cnct:nth-of-type(3) {
             stroke-dasharray: 180, 100%;
             animation-duration: 1.5s;
-            
         }
         .cnct:nth-of-type(4) {
             stroke-dasharray: 230, 100%;
             animation-duration: 1.15s;
-
         }
         .cnct:nth-of-type(5) {
             stroke-dasharray: 230, 100%;
@@ -93,6 +92,9 @@
             animation: 4s rotate linear infinite;
             transform-origin: center;
             transform-box: fill-box;
+            fill:none;
+            stroke: var(--color2);
+            stroke-width:6.26px;
         }
         circle.ring:nth-of-type(1) {
             transform: rotate3d(1, 0, 1, 90deg);
@@ -141,8 +143,8 @@
         }
     </style>
     <g id="play">
-        <circle class="ring" cx="350" cy="350" r="273.109" style="fill:none;stroke:#fff;stroke-width:6.26px;"/>
-        <circle class="ring" cx="350" cy="350" r="280.023" style="fill:none;stroke:#fff;stroke-width:6.26px;"/>
+        <circle class="ring" cx="350" cy="350" r="273.109"/>
+        <circle class="ring" cx="350" cy="350" r="280.023"/>
         <g class="network">
             <circle cx="244" cy="151.5" r="15"/>
             <circle cx="244" cy="248.5" r="15"/>
