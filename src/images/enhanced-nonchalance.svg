@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 825" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <style>
+        #quantum-field>path {
+            transform-origin: center;
+            transform-box: border-box;
+            fill: none;
+            stroke: yellow;
+            stroke-width: 2em;
+            stroke-dasharray: 50em 15em, 0 0;
+            stroke-opacity: 0;
+            animation: 10s gravitate alternate-reverse infinite;
+        }
+        #quantum-field>path:nth-of-type(1) {
+            animation-duration: 15.5s
+        }
+        #quantum-field>path:nth-of-type(2) {
+            animation-duration: 13.95s
+        }
+        #quantum-field>path:nth-of-type(3) {
+            animation-duration: 15.15s
+        }
+        #quantum-field>path:nth-of-type(4) {
+            animation-duration: 14.5s
+        }
+        #quantum-field>path:nth-of-type(5) {
+            animation-duration: 15.7s
+        }
+        #quantum-field>path:nth-of-type(6) {
+            animation-duration: 8s
+        }
+        #quantum-field>path:nth-of-type(7) {
+            animation-duration: 13.5s
+        }
+        #quantum-field>path:nth-of-type(8) {
+            animation-duration: 13.5s
+        }
+        #quantum-field>path:nth-of-type(9) {
+            animation-duration: 15.5s
+        }
+        #quantum-field>path:nth-of-type(10) {
+            animation-duration: 13.95s
+        }
+        #quantum-field>path:nth-of-type(11) {
+            animation-duration: 10.15s
+        }
+        #quantum-field>path:nth-of-type(12) {
+            animation-duration: 14.5s
+        }
+        #quantum-field>path:nth-of-type(13) {
+            animation-duration: 5.7s
+        }
+        #quantum-field>path:nth-of-type(14) {
+            animation-duration: 7s
+        }
+        #quantum-field>path:nth-of-type(15) {
+            animation-duration: 13.5s
+        }
+        #quantum-field>path:nth-of-type(16) {
+            animation-duration: 13.5s
+        }
+        @keyframes gravitate {
+            0% {
+                stroke: yellow;
+            }
+            10% {
+                stroke: green;
+            }
+            20% {
+                stroke: blue;
+            }
+            30% {
+                stroke: lavender;
+            }
+            40% {
+                stroke: fushia;
+            }
+            50% {
+                stroke: red;
+            }
+            60% {
+                stroke: orange;
+            }
+            70% {
+                stroke: gold;
+            }
+            80% {
+                stroke: yellow;
+            }
+            100% {
+                transform: rotate3d(0, 1, 0, 360deg);
+                stroke-dashoffset: 1000;
+            }
+        }
+        :root {
+            --radius: 100px;
+            --scale: 1;
+            --deg: 0deg;
+            --dur: 4;
+            --repeat: infinite;
+        }
+        #device {
+            transform-origin: center;
+            transform: scale(.9);
+            filter: drop-shadow(0 0 2em #fff);
+            animation: 8s device ease-in-out alternate-reverse infinite;
+            visibility: none;
+        }
+
+        @keyframes device {
+            0% {
+                filter: drop-shadow(0 0 1em #fff);
+                transform: translateY(-.25em) transform: scale(.9);
+            }
+            25% {
+                filter: drop-shadow(0 0 2em #fff);
+                transform: translateY(.25em) transform: scale(.9);
+            }
+            50% {
+                filter: drop-shadow(0 0 1em #fff);
+                transform: translateY(-.25em) transform: scale(.9);
+            }
+
+            100% {
+                filter: drop-shadow(0 0 2em #fff);
+                transform: translateY(.25em) transform: scale(.9);
+            }
+        }
+        #base {
+            transform: rotate3d(1, 0, 0, 66deg) translateY(95%);
+            opacity: .5;
+        }
+        #pad {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: 15s baseSpin linear infinite;
+        }
+        #pad path {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        @keyframes baseSpin {
+            100% {
+                transform: rotate3d(0, 0, 1, 360deg);
+            }
+        }
+        #lotus {
+            fill: #f9f;
+            fill-opacity: .75;
+            stroke: #fff;
+            transform-origin: center;
+        }
+        #network path {
+            stroke: #fff;
+            stroke-width: .1em;
+        }
+        #play *{
+            animation-play-state: paused;
+        }
+        #play:target *{
+            animation-play-state: running;
+        }
+    </style>
+    <g id="play">
+        <g id="base">
+        <g id="pad">
+            <g>
+                <path d="M775.964,324.793c-110.541,-77.327 -199.426,20.506 -275.214,275.214"/>
+                <path d="M775.964,324.793c-63.573,-30.36 -154.696,65.236 -275.214,275.214"/>
+                <path d="M775.964,324.793c30.361,63.574 -65.236,154.697 -275.214,275.214"/>
+                <path d="M775.217,324.046c78.348,111.561 -19.534,200.398 -275.214,275.214"/>
+            </g>
+            <g>
+                <path d="M224.036,875.754c110.541,77.328 199.426,-20.505 275.214,-275.214"/>
+                <path d="M224.036,875.754c63.573,30.361 154.696,-65.236 275.214,-275.214"/>
+                <path d="M224.036,875.754c-30.361,-63.574 65.236,-154.696 275.214,-275.214"/>
+                <path d="M224.783,876.501c-78.348,-111.561 19.534,-200.398 275.214,-275.214"/>
+            </g>
+            <g>
+                <path d="M775.48,876.238c77.328,-110.541 -20.505,-199.427 -275.214,-275.214"/>
+                <path d="M775.48,876.238c30.361,-63.574 -65.235,-154.696 -275.214,-275.214"/>
+                <path d="M775.48,876.238c-63.573,30.361 -154.696,-65.236 -275.214,-275.214"/>
+                <path d="M776.227,875.491c-111.561,78.348 -200.398,-19.534 -275.214,-275.214"/>
+            </g>
+            <g>
+                <path d="M224.52,324.31c-77.328,110.54 20.505,199.426 275.214,275.214"/>
+                <path d="M224.52,324.31c-30.361,63.573 65.235,154.696 275.214,275.214"/>
+                <path d="M224.52,324.31c63.573,-30.361 154.696,65.235 275.214,275.214"/>
+                <path d="M223.773,325.057c111.561,-78.348 200.398,19.534 275.214,275.214"/>
+            </g>
+            <g>
+                <path d="M889.93,600.616c-23.485,-132.843 -155.515,-126.516 -389.211,-0"/>
+                <path d="M889.93,600.616c-23.485,-66.422 -155.515,-63.258 -389.211,-0"/>
+                <path d="M889.93,600.616c-23.485,66.421 -155.515,63.258 -389.211,-0"/>
+                <path d="M889.93,599.559c-23.485,134.286 -155.515,127.891 -389.211,0"/>
+            </g>
+            <g>
+                <path d="M110.07,599.932c23.485,132.843 155.515,126.516 389.211,-0"/>
+                <path d="M110.07,599.932c23.485,66.421 155.515,63.258 389.211,-0"/>
+                <path d="M110.07,599.932c23.485,-66.422 155.515,-63.258 389.211,-0"/>
+                <path d="M110.07,600.988c23.485,-134.286 155.515,-127.89 389.211,0"/>
+            </g>
+            <g>
+                <path d="M499.658,990.204c132.843,-23.485 126.516,-155.516 -0,-389.212"/>
+                <path d="M499.658,990.204c66.421,-23.485 63.258,-155.516 -0,-389.212"/>
+                <path d="M499.658,990.204c-66.422,-23.485 -63.258,-155.516 -0,-389.212"/>
+                <path d="M500.714,990.204c-134.286,-23.485 -127.89,-155.516 0,-389.212"/>
+            </g>
+            <g>
+                <path d="M500.342,210.344c-132.843,23.485 -126.516,155.515 0,389.211"/>
+                <path d="M500.342,210.344c-66.421,23.485 -63.258,155.515 0,389.211"/>
+                <path d="M500.342,210.344c66.422,23.485 63.258,155.515 0,389.211"/>
+                <path d="M499.286,210.344c134.286,23.485 127.89,155.515 -0,389.211"/>
+            </g>
+        </g>
+    </g>
+        <g id="lotus">
+        <g>
+            <path d="M499.467,558.846c103.122,-142.021 118.399,-283.744 0.043,-425.764"/>
+            <path d="M499.348,558.846c-103.122,-142.021 -118.21,-283.744 0.146,-425.764"/>
+        </g>
+            <g>
+            <path d="M499.45,558.846c173.342,-27.505 284.358,-116.916 301.091,-301.03"/>
+                <path d="M499.366,558.763c27.505,-173.343 117.05,-284.225 301.164,-300.958"/>
+        </g>
+            <g>
+            <path d="M501.168,558.846c-173.343,-27.505 -284.358,-116.916 -301.092,-301.03"/>
+                <path d="M501.251,558.763c-27.505,-173.343 -117.049,-284.225 -301.163,-300.958"/>
+        </g>
+            <g>
+            <path d="M501.159,558.848c-149.542,-91.876 -217.783,-217.024 -162.633,-393.479"/>
+                <path d="M501.268,558.802c41.071,-170.637 0.894,-307.381 -162.727,-393.439"/>
+        </g>
+            <g>
+            <path d="M499.531,559.151c149.542,-91.876 217.783,-217.024 162.633,-393.479"/>
+                <path d="M499.421,559.106c-41.071,-170.638 -0.893,-307.382 162.728,-393.44"/>
+        </g>
+            <g>
+            <path d="M501.175,558.842c-171.455,37.516 -307.41,-5.322 -390.049,-170.696"/>
+                <path d="M501.222,558.734c-88.748,-151.42 -212.526,-222.074 -390.089,-170.603"/>
+        </g>
+            <g>
+            <path d="M498.825,558.842c171.455,37.516 307.41,-5.322 390.049,-170.696"/>
+                <path d="M498.778,558.734c88.748,-151.42 212.526,-222.074 390.089,-170.603"/>
+        </g>
+    </g>
+        <g id="device">
+        <path d="M599.115,200.999c0,-3.867 -3.135,-7.002 -7.002,-7.002c-30.741,-0 -153.566,-0 -184.306,-0c-3.867,-0 -7.003,3.135 -7.003,7.002c0,44.931 0,292.272 0,337.202c0,3.868 3.136,7.003 7.003,7.003c30.74,-0 153.565,-0 184.306,-0c3.867,-0 7.002,-3.135 7.002,-7.003c0,-44.93 0,-292.271 0,-337.202Z" style="fill:#8e61c4;"/>
+            <circle cx="499.96" cy="528.52" r="8.81" style="fill:#a281cf;"/>
+            <path d="M583.117,215.917c0,-1.857 -0.737,-3.639 -2.051,-4.952c-1.313,-1.313 -3.094,-2.051 -4.951,-2.051c-27.134,0 -125.177,0 -152.31,0c-1.857,0 -3.638,0.738 -4.952,2.051c-1.313,1.313 -2.051,3.095 -2.051,4.952c0,41.066 0,250.226 0,291.292c0,1.857 0.738,3.638 2.051,4.951c1.314,1.314 3.095,2.051 4.952,2.051c27.133,0 125.176,0 152.31,0c1.857,0 3.638,-0.737 4.951,-2.051c1.314,-1.313 2.051,-3.094 2.051,-4.951c0,-41.066 0,-250.226 0,-291.292Z" style="fill:#61b0c4;"/>
+            <g id="network">
+            <circle cx="457.44" cy="287.131" r="5.622" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
+                <circle cx="457.44" cy="323.486" r="5.622" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
+                <circle cx="457.44" cy="398.261" r="5.622" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
+                <circle cx="547.391" cy="398.261" r="5.622" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
+                <circle cx="547.391" cy="323.486" r="5.622" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
+                <circle cx="457.44" cy="435.924" r="5.622" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
+                <path d="M457.498,287.207l89.645,35.951"/>
+                <path d="M457.295,399.081l0.145,36.591"/>
+                <path d="M457.44,326.916l0,68.523"/>
+                <path d="M547.373,398.619l-89.903,0"/>
+                <path d="M457.44,288.962l0,31.518"/>
+                <path d="M547.391,326.916l-0,68.523"/>
+                <path d="M547.676,323.943l-89.866,74.675"/>
+                <path d="M457.81,324.233l89.576,74.385"/>
+                <path id="bbp" d="M457.72,435.868l89.554,-36.781"/>
+                <path id="tbp" d="M547.373,323.698l-89.903,0"/>
+        </g>
+    </g>
+    </g>
+</svg>

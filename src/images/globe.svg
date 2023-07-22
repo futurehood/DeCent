@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="Artboard1" x="0" y="0" width="1000" height="1000" style="fill:none;"/>
+    <style>
+        g {
+            transform-origin: center;
+            transform-style: preserve-3d;
+            animation: 20s spn linear infinite;
+        }
+        @keyframes spn {
+            100% {
+                transform: rotate3d(.5, 1, 0, 360deg);
+            }
+        }
+        circle {
+            transform-origin: center center;
+            transform-box: fill-box;
+            fill: none;
+            stroke: #fff;
+            stroke-width: .15em;
+        }
+        svg>circle {
+            stroke-width: .5em;
+        }
+        g>circle:nth-of-type(2) {
+            transform: rotate3d(0, 1, 0, 30deg);
+        }
+        g>circle:nth-of-type(3) {
+            transform: rotate3d(0, 1, 0, 60deg);
+        }
+        g>circle:nth-of-type(4) {
+            transform: rotate3d(0, 1, 0, 90deg);
+        }
+        g>circle:nth-of-type(5) {
+            transform: rotate3d(0, 1, 0, 120deg);
+        }
+        g>circle:nth-of-type(6) {
+            transform: rotate3d(0, 1, 0, 150deg);
+        }
+        g>circle:nth-of-type(7) {
+            transform: rotate3d(1, 0, 0, 90deg);
+        }
+        g>circle:nth-of-type(8) {
+            transform: rotate3d(1, 0, 0, 90deg) translateZ(12rem) scale(.8);
+        }
+        g>circle:nth-of-type(9) {
+            transform: rotate3d(1, 0, 0, 90deg) translateZ(-12rem) scale(.8);
+        }
+    </style>
+    <circle cx="500" cy="500" r="400"/>
+
+    <g id="Artboard11" serif:id="Artboard1">
+        <circle cx="500" cy="500" r="400"/>
+        <circle cx="500" cy="500" r="400"/> 
+        <circle cx="500" cy="500" r="400"/>
+        <circle cx="500" cy="500" r="400"/>
+        <circle cx="500" cy="500" r="400"/>
+        <circle cx="500" cy="500" r="400"/>
+        <circle cx="500" cy="500" r="400"/>
+        <circle cx="500" cy="500" r="400"/>
+        <circle cx="500" cy="500" r="400"/>
+    </g>
+</svg>

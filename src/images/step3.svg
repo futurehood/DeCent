@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <style>
+        svg {
+            animation-play-state: inherit;
+        }
+        #device > #screen {
+            fill:#fff;
+            fill-opacity: .25;
+            stroke:#fff;
+            stroke-width: .25em;
+        }
+        #device > path {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        #device > circle {
+            fill: #fff;
+            stroke: none;
+        }
+        #ui {
+            transform-origin: center;
+            transform-box: fill-box;
+            opacity: 0;
+            animation: 10s ui linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes ui {
+            0% {
+                opacity: 0;
+            }
+            30% {
+                opacity: 0;
+                transform: scale(0);
+            }
+            33% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            98% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #ui > path {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        #ui > rect:nth-of-type(1) {
+            fill: #fff;
+            stroke: none;
+        }
+        #ui > rect:nth-of-type(2) {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        #arrow {
+            fill: #32ffad;
+            opacity: 0;
+            animation: 10s arrow linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes arrow {
+            0% {
+                opacity: 0;
+            }
+            2% {
+                opacity: 1;
+            }
+            5% {
+                transform: translateX(-4em);
+            }
+            10% {
+                transform: translateX(0);
+            }
+            15% {
+                transform: translateX(-4em);
+            }
+            20% {
+                transform: translateX(-2em);
+            }
+            22% {
+                opacity: 1;
+            }
+            24% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #app-ui {
+            transform-origin: center;
+            transform-box: fill-box;
+            opacity: 0;
+            animation: 10s app-ui linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes app-ui {
+            0% {
+                opacity: 0;
+            }
+            30% {
+                opacity: 0;
+                transform: scale(0);
+            }
+            33% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        #app-ui > path {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        #app-ui > rect {
+            fill: #fff;
+            stroke: none;
+        }
+        #icon {
+            animation: 10s icon linear infinite;
+            animation-play-state: inherit;
+            transform-origin: center;
+            transform-box: fill-box;
+        }
+        @keyframes icon {
+            0% {
+                transform: scale(1);
+            }
+            25% {
+                transform: scale(1);
+            }
+            27% {
+                transform: scale(.9);
+            }
+            29% {
+                transform: scale(1);
+            }
+            30% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            32% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(0);
+            }
+        }
+        #icon > path:nth-of-type(1) {
+            fill: #fff;
+            fill-opacity: .25;
+        }
+        #icon > path {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        #icon > circle {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        #icons {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: 10s icons linear infinite;
+            animation-play-state: inherit;
+        }
+        #icons > path {
+            fill: #fff;
+            fill-opacity: .25;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+        @keyframes icons {
+            0% {
+                transform: scale(1);
+            }
+            30% {
+                transform: scale(1);
+            }
+            32% {
+                transform: scale(0) translate(-1em, -1em);
+            }
+            100% {
+                transform: scale(0) translate(-1em, -1em);
+            }
+        }
+        #check {
+            fill: #32ffad;
+            transform-origin: center;
+            transform-box: fill-box;
+            opacity: 0;
+            animation: 10s check linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes check {
+            0% {
+                opacity: 0;
+            }
+            37% {
+                opacity: 0;
+                transform: scale(1);
+            }
+            39% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            40% {
+                transform: scale(1);
+            }
+            98% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #play *{
+            animation-play-state: paused;
+        }
+        #play:target *{
+            animation-play-state: running;
+        }
+    </style>
+    <g id="play">
+        <g id="device">
+            <path d="M511.929,81.422c-0,-16.815 -13.652,-30.467 -30.467,-30.467l-386.509,0c-16.815,0 -30.466,13.652 -30.466,30.467l-0,823.753c-0,16.815 13.651,30.466 30.466,30.466l386.509,0c16.815,0 30.467,-13.651 30.467,-30.466l-0,-823.753Z"/>
+            <path id="screen" d="M490.653,120.591c-0,-15.215 -12.354,-27.568 -27.569,-27.568l-349.752,-0c-15.216,-0 -27.569,12.353 -27.569,27.568l-0,745.414c-0,15.216 12.353,27.569 27.569,27.569l349.752,0c15.215,0 27.569,-12.353 27.569,-27.569l-0,-745.414Z"/>
+            <circle cx="465.559" cy="72.786" r="5.896"/>
+        </g>
+        <path id="check" d="M708.609,537.094c-0,0 -68.97,-68.969 -84.012,-84.012c-1.588,-1.587 -4.162,-1.587 -5.749,0c-8.277,8.277 -32.102,32.101 -40.379,40.379c-0.762,0.762 -1.191,1.796 -1.191,2.874c0,1.078 0.429,2.112 1.191,2.875c17.683,17.683 111.534,111.533 129.217,129.216c0.762,0.763 1.796,1.191 2.874,1.191c1.079,0 2.113,-0.428 2.875,-1.191c8.032,-8.032 30.128,-30.128 30.128,-30.128l0.308,-0.308c0,0 195.14,-195.14 221.248,-221.247c0.762,-0.763 1.19,-1.797 1.19,-2.875c0,-1.078 -0.428,-2.112 -1.19,-2.874c-8.587,-8.587 -33.98,-33.98 -42.566,-42.566c-0.763,-0.763 -1.797,-1.191 -2.875,-1.191c-1.078,-0 -2.112,0.428 -2.874,1.191c-25.227,25.226 -207.98,207.979 -207.98,207.979"/>
+        <g id="ui">
+            <path d="M86.766,127.326l402.564,-2.008c1.908,-19.446 -6.673,-29.833 -23.943,-32.715l-350.51,-0.327c-15.641,0.439 -29.93,14.488 -28.111,35.05Z"/>
+            <path d="M87.253,179.11l403.002,0"/>
+            <rect x="101.337" y="148.623" width="29.831" height="20.391"/>
+            <path d="M107.841,148.618c0,-12.356 15.976,-12.356 15.976,0"/>
+            <rect x="145.114" y="137.011" width="331.163" height="28.206"/>
+        </g>
+        <g id="icons">
+            <path d="M184.68,134.161c0,-11.579 -9.4,-20.979 -20.979,-20.979l-41.959,-0c-11.579,-0 -20.98,9.4 -20.98,20.979l0,41.959c0,11.579 9.401,20.98 20.98,20.98l41.959,-0c11.579,-0 20.979,-9.401 20.979,-20.98l0,-41.959Z"/>
+                <path d="M477.805,134.161c-0,-11.579 -9.401,-20.979 -20.98,-20.979l-41.959,-0c-11.578,-0 -20.979,9.4 -20.979,20.979l0,41.959c0,11.579 9.401,20.98 20.979,20.98l41.959,-0c11.579,-0 20.98,-9.401 20.98,-20.98l-0,-41.959Z"/>
+                <path d="M380.097,134.161c-0,-11.579 -9.401,-20.979 -20.98,-20.979l-41.959,-0c-11.579,-0 -20.979,9.4 -20.979,20.979l-0,41.959c-0,11.579 9.4,20.98 20.979,20.98l41.959,-0c11.579,-0 20.98,-9.401 20.98,-20.98l-0,-41.959Z"/>
+                <path d="M282.388,134.161c0,-11.579 -9.4,-20.979 -20.979,-20.979l-41.959,-0c-11.579,-0 -20.979,9.4 -20.979,20.979l-0,41.959c-0,11.579 9.4,20.98 20.979,20.98l41.959,-0c11.579,-0 20.979,-9.401 20.979,-20.98l0,-41.959Z"/>
+                <g id="icon">
+                <path d="M184.68,241.553c0,-11.578 -9.4,-20.979 -20.979,-20.979l-41.959,-0c-11.579,-0 -20.98,9.401 -20.98,20.979l0,41.959c0,11.579 9.401,20.98 20.98,20.98l41.959,-0c11.579,-0 20.979,-9.401 20.979,-20.98l0,-41.959Z"/>
+                <circle cx="142.721" cy="262.533" r="27.703"/>
+                <path d="M116.948,254.313l51.663,0"/>
+                <path d="M116.948,270.91l51.663,0"/>
+                <path d="M139.924,235.897c-14.785,18.001 -15.451,36.001 -0,54.002"/>
+                <path d="M146.157,235.897c14.785,18.001 15.451,36.001 0,54.002"/>
+            </g>
+        </g>
+        <path id="arrow" d="M545.006,301.913l-199.179,0l0,72.709l-111.86,-111.86l111.86,-111.861l0,72.71l198.983,-0l0.196,78.302Z" />
+            <g id="app-ui">
+            <rect x="292.599" y="214.461" width="155.886" height="153.7" style="fill:#fff;fill-opacity:.5;stroke:#fff;stroke-width:.25em;stroke-radius:2em;"/>
+            <path d="M107.576,223.93l153.7,0"/>
+            <path d="M107.576,253.93l153.7,0"/>
+            <path d="M107.576,283.93l153.7,0"/>
+            <path d="M107.576,413.93l356.206,0"/>
+            <path d="M107.576,443.93l356.206,0"/>
+            <path d="M107.576,473.93l356.206,0"/>
+            <path d="M107.576,503.93l356.206,0"/>
+            <path d="M107.576,533.93l356.206,0"/>
+            <path d="M107.576,563.93l356.206,0"/>
+            <path d="M107.576,593.93l182.109,0"/>
+            <path d="M107.576,313.93l89.598,0"/>
+            <path d="M260.017,633.616c0,-3.788 -3.071,-6.859 -6.859,-6.859c-23.666,-0 -101.747,-0 -125.413,-0c-3.789,-0 -6.859,3.071 -6.859,6.859c-0,9.902 -0,28.098 -0,38.001c-0,3.788 3.07,6.859 6.859,6.859c23.666,-0 101.747,-0 125.413,-0c3.788,-0 6.859,-3.071 6.859,-6.859c0,-9.903 0,-28.099 0,-38.001Z" style="fill:#fff;fill-opacity:.5;"/>
+            <path d="M460.017,633.616c0,-3.788 -3.071,-6.859 -6.859,-6.859c-23.666,-0 -101.747,-0 -125.413,-0c-3.789,-0 -6.859,3.071 -6.859,6.859c-0,9.902 -0,28.098 -0,38.001c-0,3.788 3.07,6.859 6.859,6.859c23.666,-0 101.747,-0 125.413,-0c3.788,-0 6.859,-3.071 6.859,-6.859c0,-9.903 0,-28.099 0,-38.001Z" style="fill:#fff;fill-opacity:.5;"/>
+        </g>
+    </g>
+</svg>

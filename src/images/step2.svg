@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <style>
+        svg {
+            animation-play-state: inherit;
+        }
+        #device > * {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .25em;
+        }
+
+        #device > #screen {
+            fill:#fff;
+            fill-opacity: .25;
+            stroke:#fff;
+            stroke-width: .25em;
+        }
+        #arrow {
+            fill: #32ffad;
+            stroke:none;
+        }
+        #check {
+            fill: #32ffad;
+            transform-origin: center;
+            transform-box: fill-box;
+            opacity: 0;
+            animation: 10s check linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes check {
+            0% {
+                opacity: 0;
+            }
+            77% {
+                opacity: 0;
+                transform: scale(1);
+            }
+            79% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            80% {
+                transform: scale(1);
+            }
+            98% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #arrow1, #arrow2 {
+            fill: #32ffad;
+            stroke: none;
+        }
+        #arrow1 {
+            animation: 10s arrow1 linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes arrow1 {
+            0% {
+                transform: translateX(-5em);
+            }
+            5% {
+                transform: translateX(0);
+            }
+            10% {
+                transform: translateX(-5em);
+            }
+            15% {
+                transform: translateX(0);
+                opacity: 1;
+
+            }
+            17.5% {
+                transform: translateX(-5em);
+                opacity: 0;
+            }
+            22% {
+                transform: translateX(0);
+            }
+            70% {
+                transform: translateX(0);
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #arrow2 {
+            opacity: 0;
+            animation: 10s arrow2 linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes arrow2 {
+            0% {
+                opacity: 0;
+                transform: translateY(2em);
+
+            }
+            38% {
+                opacity: 0;
+            }
+            40% {
+                transform: translateY(2em);
+                opacity: 1;
+            }
+            45% {
+                transform: translateY(-3em);
+            }
+            50% {
+                transform: translateY(2em);
+
+            }
+            55% {
+                transform: translateY(-3em);
+            }
+            60% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            65% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(2em);
+            }
+        }
+        #button {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: 10s button linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes button {
+            0% {
+                transform: scale(1);
+            }
+            23% {
+                transform: scale(1);
+            }
+            24% {
+                transform: scale(.9);
+            }
+            25% {
+                transform: scale(1);
+            }
+            26% {
+                opacity: 1;
+            }
+            28% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #button > path {
+            fill: #6816ff;
+            fill-opacity: .75;
+            stroke: #fff;
+            stroke-width: .15em;
+        }
+        #prompt {
+            opacity: 0;
+            animation: 10s prompt linear infinite;
+            animation-play-state: inherit;
+        }
+        #prompt > path:nth-of-type(1) {
+            fill: #6816ff;
+            stroke: #fff;
+            stroke-width: .15em;
+        }
+        #prompt > #btn1 {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: 10s btn1 linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes prompt {
+            0% {
+                opacity: 0;
+            }
+            35% {
+                opacity: 0;
+            }
+            37% {
+                opacity: 1;
+            }
+            75% {
+                opacity: 1;
+            }
+            77% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        @keyframes btn1 {
+            0% {
+                transform: scale(1);
+            }
+            68% {
+                transform: scale(1);
+            }
+            70% {
+                transform: scale(1.3);
+            }
+            72% {
+                transform: scale(1)
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        #ui > path {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .15em;
+        }
+        #ui > rect:nth-of-type(1) {
+            fill: #fff;
+            stroke: none;
+        }
+        #ui > rect:nth-of-type(2) {
+            fill: none;
+            stroke: #fff;
+            stroke-width: .15em;
+        }
+        #icon {
+            opacity: 0;
+            animation: 10s icon linear infinite;
+            animation-play-state: inherit;
+        }
+        @keyframes icon {
+            0% {
+                opacity: 0;
+            }
+            76% {
+                opacity: 0;
+            }
+            78% {
+                opacity: 1;
+            }
+            95% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        #icon > circle {
+            fill: #fff;
+            fill-opacity: .25;
+            stroke: #fff;
+            stroke-width: .15em;
+        }
+        #icon > path {
+            fill: #fff;
+            stroke: #fff;
+            stroke-width: .15em; 
+        }
+                #play *{
+            animation-play-state: paused;
+        }
+        #play:target *{
+            animation-play-state: running;
+        }
+    </style>
+    <g id="play">
+            <g id="device">
+        <path d="M556.694,77.116c-0,-17.038 -13.833,-30.871 -30.871,-30.871l-391.646,0c-17.038,0 -30.871,13.833 -30.871,30.871l0,834.7c0,17.038 13.833,30.871 30.871,30.871l391.646,0c17.038,0 30.871,-13.833 30.871,-30.871l-0,-834.7Z"/>
+                <path id="screen" d="M535.135,116.807c0,-15.418 -12.517,-27.935 -27.935,-27.935l-354.4,-0c-15.418,-0 -27.935,12.517 -27.935,27.935l-0,755.319c-0,15.418 12.517,27.935 27.935,27.935l354.4,0c15.418,0 27.935,-12.517 27.935,-27.935l0,-755.319Z"/>
+                <circle cx="509.708" cy="68.366" r="5.974"/>
+    </g>
+        <g id="ui">
+        <path d="M124.984,124.301l408.916,-2.041c1.938,-19.752 -6.778,-30.303 -24.321,-33.23l-356.04,-0.333c-15.889,0.446 -30.403,14.717 -28.555,35.604Z"/>
+            <path d="M125.479,176.902l409.361,-0"/>
+            <rect x="139.785" y="145.934" width="30.301" height="20.713"/>
+            <path d="M146.392,145.929c-0,-12.552 16.227,-12.552 16.227,-0"/>
+            <rect x="184.253" y="134.138" width="336.389" height="28.651"/>
+    </g>
+        <g id="button">
+        <path id="dialog" d="M483.38,415.348c0,-3.335 -1.325,-6.533 -3.683,-8.891c-2.358,-2.358 -5.556,-3.683 -8.89,-3.683l-277.278,-0c-3.335,-0 -6.533,1.325 -8.891,3.683c-2.358,2.358 -3.682,5.556 -3.682,8.891l-0,109.263c-0,3.335 1.324,6.533 3.682,8.891c2.358,2.358 5.556,3.683 8.891,3.683l277.278,-0c3.334,-0 6.532,-1.325 8.89,-3.683c2.358,-2.358 3.683,-5.556 3.683,-8.891l0,-109.263Z"/>
+            <text x="282.517px" y="482.252px" style="font-family:'PressStart2P-Regular', 'Press Start 2P';font-size:25px;fill:#fff;">CONNECT</text>
+            <g id="crest">
+            <circle cx="225.298" cy="457.088" r="4.772" style="fill:#fff;"/>
+                <circle cx="225.298" cy="437.53" r="4.772" style="fill:#fff;"/>
+                <path d="M225.452,437.489l0,59.249l35.1,-20.088l0,-19.581l-35.1,-19.58Z" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <path d="M225.452,477.013l35.1,-0.363" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <path d="M225.452,457.432l35.1,-0.363" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <circle cx="260.502" cy="457.088" r="4.772" style="fill:#fff;"/>
+                <circle cx="225.298" cy="476.646" r="4.772" style="fill:#fff;"/>
+                <circle cx="225.298" cy="496.204" r="4.772" style="fill:#fff;"/>
+                <circle cx="260.502" cy="476.646" r="4.772" style="fill:#fff;"/>
+                <path d="M225.901,477.167l34.592,-20.057" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+                <path d="M260.746,476.976l-35.29,-19.676" style="fill:none;stroke:#fff;stroke-width:4.17px;"/>
+        </g>
+    </g>
+        <g id="icon">
+        <circle cx="330" cy="470.687" r="122.562" />
+            <path id="check-icon" d="M305.47,491.534c0,-0 -21.56,-21.56 -29.481,-29.482c-0.763,-0.762 -1.797,-1.19 -2.875,-1.19c-1.078,-0 -2.112,0.428 -2.874,1.19c-3.174,3.174 -8.255,8.255 -11.429,11.429c-0.762,0.762 -1.191,1.796 -1.191,2.874c0,1.079 0.429,2.113 1.191,2.875c8.856,8.855 35.656,35.656 44.512,44.511c1.587,1.588 4.161,1.588 5.749,0c3.632,-3.632 9.415,-9.415 9.415,-9.415l0.115,-0.115c-0,0 65.908,-65.908 80.587,-80.587c1.587,-1.588 1.587,-4.162 -0,-5.749c-3.359,-3.359 -8.884,-8.884 -12.243,-12.243c-0.763,-0.763 -1.797,-1.191 -2.875,-1.191c-1.078,0 -2.112,0.428 -2.874,1.191c-14.142,14.141 -75.646,75.646 -75.646,75.646"/>
+    </g>
+        <g id="prompt">
+        <path d="M517.62,118.152c-0,-1.986 -1.61,-3.595 -3.596,-3.595l-368.048,-0c-1.986,-0 -3.596,1.609 -3.596,3.595l0,150.397c0,1.985 1.61,3.595 3.596,3.595l368.048,0c1.986,0 3.596,-1.61 3.596,-3.595l-0,-150.397Z"/>
+            <path d="M168.114,140.196l323.772,-0" style="fill:none;stroke:#fff;stroke-width:8.33px;"/>
+            <path d="M168.114,170.196l323.772,-0" style="fill:none;stroke:#fff;stroke-width:8.33px;"/>
+            <path id="btn1" d="M354.818,233.527c0,0 -4.665,-4.665 -7.818,-7.818c-1.56,-1.56 -4.089,-1.56 -5.649,-0c-0,0 -0.001,0.001 -0.001,0.002c-0.749,0.749 -1.17,1.764 -1.17,2.824c-0,1.059 0.421,2.075 1.17,2.824c3.022,3.022 7.791,7.791 10.833,10.833c1.587,1.587 4.161,1.587 5.749,-0c0.657,-0.658 1.167,-1.168 1.167,-1.168l0.038,-0.038c0,0 17.537,-17.537 24.578,-24.577c0.762,-0.763 1.19,-1.797 1.19,-2.875c0,-1.078 -0.428,-2.112 -1.19,-2.874c-0.057,-0.057 -0.113,-0.113 -0.169,-0.169c-1.588,-1.588 -4.162,-1.588 -5.749,-0c-6.732,6.731 -22.953,22.952 -22.953,22.952" style="fill:#fff;"/>
+            <g id="btn2">
+            <path d="M466.037,213.585l-27.828,27.828" style="fill:none;stroke:#fff;stroke-width:8.33px;"/>
+                <path d="M438.209,213.585l27.828,27.828" style="fill:none;stroke:#fff;stroke-width:8.33px;"/>
+        </g>
+    </g>
+        <path id="arrow1" d="M745.435,508.174l-185.51,0l0,67.782l-104.184,-104.279l104.184,-104.279l0,67.781l185.328,-0l0.182,72.995Z"/>
+        <path id="arrow2" d="M324.091,576.524l-0,-185.51l-67.782,-0l104.279,-104.185l104.279,104.185l-67.781,-0l-0,185.327l-72.995,0.183Z"/>
+        <path id="check" d="M708.609,537.094c-0,0 -68.97,-68.969 -84.012,-84.012c-1.588,-1.587 -4.162,-1.587 -5.749,0c-8.277,8.277 -32.102,32.101 -40.379,40.379c-0.762,0.762 -1.191,1.796 -1.191,2.874c0,1.078 0.429,2.112 1.191,2.875c17.683,17.683 111.534,111.533 129.217,129.216c0.762,0.763 1.796,1.191 2.874,1.191c1.079,0 2.113,-0.428 2.875,-1.191c8.032,-8.032 30.128,-30.128 30.128,-30.128l0.308,-0.308c0,0 195.14,-195.14 221.248,-221.247c0.762,-0.763 1.19,-1.797 1.19,-2.875c0,-1.078 -0.428,-2.112 -1.19,-2.874c-8.587,-8.587 -33.98,-33.98 -42.566,-42.566c-0.763,-0.763 -1.797,-1.191 -2.875,-1.191c-1.078,-0 -2.112,0.428 -2.874,1.191c-25.227,25.226 -207.98,207.979 -207.98,207.979"/>
+    </g>
+</svg>
