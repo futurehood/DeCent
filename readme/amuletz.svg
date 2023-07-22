@@ -101,14 +101,14 @@
         @keyframes transmit {
             0% {
                 stroke-opacity: .5;
-                stroke: #fff;
+                stroke: var(--color1);
                 stroke-dashoffset: 100%;
             }
             99% {
                 stroke-opacity: .5
             }
             100% {
-                stroke: #fff;
+                stroke: var(--color1);
                 stroke-dash-offset: 0;
                 stroke-opacity: 0;
             }
@@ -135,17 +135,21 @@
         #play:target *{
             animation-play-state: running;
         }
+        #network>circle{
+            fill: var(--color1);
+            stroke: none;
+        }
     </style>
     <g id="play">
         <circle class="ring" cx="350" cy="350" r="273.109" style="fill:none;stroke:#fff;stroke-width:6.26px;"/>
         <circle class="ring" cx="350" cy="350" r="280.023" style="fill:none;stroke:#fff;stroke-width:6.26px;"/>
         <g class="network">
-        <circle cx="244" cy="151.5" r="15" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
-            <circle cx="244" cy="248.5" r="15" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
-            <circle cx="244" cy="448.01" r="15" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
-            <circle cx="484" cy="448.01" r="15" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
-            <circle cx="484" cy="248.5" r="15" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
-            <circle cx="244" cy="548.5" r="15" style="fill:#fff;stroke:#fff;stroke-width:1px;"/>
+            <circle cx="244" cy="151.5" r="15"/>
+            <circle cx="244" cy="248.5" r="15"/>
+            <circle cx="244" cy="448.01" r="15"/>
+            <circle cx="484" cy="448.01" r="15"/>
+            <circle cx="484" cy="248.5" r="15"/>
+            <circle cx="244" cy="548.5" r="15"/>
             <path class="cnct" d="M244.155,151.702l239.185,95.923" />
             <path class="cnct" d="M243.613,450.199l0.387,97.628" />
             <path class="cnct" d="M244,257.652l-0,182.828" />
@@ -155,29 +159,29 @@
             <path class="cnct" d="M484.761,249.72l-239.774,199.242" />
             <path class="cnct" d="M244.987,250.494l239.001,198.468" />
             <g class="data">
-            <path d="M246.593,270.132l215.789,179.191"/>
-                <path d="M266.593,250.132l215.789,179.191"/>
-                <path d="M482.382,270.132l-215.789,179.191"/>
-                <path d="M462.382,250.132l-215.789,179.191"/>
-                <path id="bbbp" d="M263.604,556.605l215.592,-88.547"/>
-                <path id="bbtp" d="M256.985,527.109l155.333,-63.797"/>
-                <path id="tlrp" d="M256,234.159l-0,-66.04"/>
-                <path id="tbtp" d="M421.744,236.605l-162.739,-0"/>
-                <path id="tttp" d="M263.604,142.966l215.592,88.547"/>
-                <path id="ttbp" d="M256.985,172.462l155.333,63.797"/>
-                <path d="M231,468.099l-0,62.945"/>
-                <path d="M256,465.412l-0,66.041"/>
-                <path d="M231,265.786l-0,165.258"/>
-                <path d="M256,257.652l-0,182.828"/>
-                <path d="M496.46,262.007l0,172.137"/>
-                <path d="M471.46,253.296l0,183.62"/>
-                <path d="M467.537,263.066l-206.951,-0"/>
-                <path d="M421.744,462.966l-162.739,0"/>
-                <path d="M466.09,434.218l-204.575,0.194"/>
-                <path d="M231,168.099l-0,62.295"/>
-        </g>
+                <path d="M246.593,270.132l215.789,179.191"/>
+                    <path d="M266.593,250.132l215.789,179.191"/>
+                    <path d="M482.382,270.132l-215.789,179.191"/>
+                    <path d="M462.382,250.132l-215.789,179.191"/>
+                    <path id="bbbp" d="M263.604,556.605l215.592,-88.547"/>
+                    <path id="bbtp" d="M256.985,527.109l155.333,-63.797"/>
+                    <path id="tlrp" d="M256,234.159l-0,-66.04"/>
+                    <path id="tbtp" d="M421.744,236.605l-162.739,-0"/>
+                    <path id="tttp" d="M263.604,142.966l215.592,88.547"/>
+                    <path id="ttbp" d="M256.985,172.462l155.333,63.797"/>
+                    <path d="M231,468.099l-0,62.945"/>
+                    <path d="M256,465.412l-0,66.041"/>
+                    <path d="M231,265.786l-0,165.258"/>
+                    <path d="M256,257.652l-0,182.828"/>
+                    <path d="M496.46,262.007l0,172.137"/>
+                    <path d="M471.46,253.296l0,183.62"/>
+                    <path d="M467.537,263.066l-206.951,-0"/>
+                    <path d="M421.744,462.966l-162.739,0"/>
+                    <path d="M466.09,434.218l-204.575,0.194"/>
+                    <path d="M231,168.099l-0,62.295"/>
+            </g>
             <path id="bbp" class="cnct" d="M244.745,548.351l238.943,-98.138" />
             <path id="tbp" class="cnct" d="M483.951,249.066l-239.873,-0" />
-    </g>
+        </g>
     </g>
 </svg>
