@@ -135,7 +135,7 @@
         #play:target *{
             animation-play-state: running;
         }
-        #network>circle{
+        .network>circle{
             fill: var(--color1);
             stroke: none;
         }
