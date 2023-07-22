@@ -4,13 +4,24 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
     xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <style>
+        :root{
+            --color1: #fff;
+            --color2: #fff;
+        }
+        @media (prefers-color-scheme: light) {
+            :root{
+                --color1: #f60;
+                --color2: #f60;
+            }
+        }
         .cnct {
-            fill:none;stroke:#fff;stroke-width:.6em;
+            fill:none;
+            stroke: var(--color1);
+            stroke-width:.6em;
             animation: 1s connect linear forwards;
         }
         .cnct:nth-of-type(1) {
             stroke-dasharray: 250, 100%;
-
         }
         .cnct:nth-of-type(2) {
             stroke-dasharray: 150, 100%;
