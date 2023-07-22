@@ -19,7 +19,7 @@ Web420 combines the spirit of Internets of old with modern tech to provide the G
 
 DeCent is a collection of protocols and tools that, when forces combine, hold the power to flip the traditional infrastructure of the Internet on its head, putting the power of connectivity back into the hands of the people.
 
-**Project website**: https://futurehood.github.com/DeCent/
+**Project website**: https://futurehood.github.io/DeCent/#welcome
 
 ## Overview
 
@@ -82,7 +82,7 @@ Once these two criteria have been met, you're nearly ready to use Web420. The fi
 
 DWAs can either be installed and accessed locally (recommended), or used from traditional remote hosting configurations.
 
-Try DeCent Messenger (<a href="https://futurehood.github.io/DeCent-Messenger">Live Demo</a> / <a href="https://github.com/futurehood/DeCent-Messenger">Repository</a>), or build your own DWA.
+Try DeCent Messenger (<a href="https://futurehood.github.io/DeCent-Messenger">Live Demo</a> / <a href="https://github.com/futurehood/DeCent-Messenger" target="_blank">Repository</a>), or <a href="https://github.com/futurehood/DWA" target="_blank">build your own DWA</a>.
 
 ## FAQ
 
