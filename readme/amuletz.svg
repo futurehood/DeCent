@@ -12,7 +12,7 @@
         @media (prefers-color-scheme: light) {
             :root{
                 --color1: #0fc;
-                --color2: #9d54ff;
+                --color2: #c29fff;
             }
         }
         .cnct {
