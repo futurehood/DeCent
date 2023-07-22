@@ -49,7 +49,9 @@ In addition to the core subprojects that make up DeCent, official implementation
 
 ## Features
 
-The peer-to-peer networks that Web420 is made up of share these features:
+<img src="readme/praise-jah.svg" align="right" style="width: 300px;">
+
+The peer-to-peer networks that Web420 are made up of share these features:
 
 1. **Undetectable** - DCNT networks are ephemeral and emergent, the traffic they generate is difficult to identify by pattern. Between that and the fact that every connection is wrapped in standard browser-based encryption, there is little chance of identifying DCNT users at all.
 2. **Unblockable** - Because DCNT networks are undetectable, they are also unblockable. DCNT networks operate over the regular Internet, and appear as normal Internet traffic, making it impossible to block specific DCNT networks without crippling specific, commonly-used capabilities across the whole network.
@@ -59,18 +61,26 @@ The peer-to-peer networks that Web420 is made up of share these features:
 
 ## Technical Overview
 
-A DCNT server is a simple, self-hosted HTTPS/WSS server that implements the DCNT protocol. Preferably, this server will be running locally. DWAs connect to DCNT servers to facilitate WebRTC peer-to-peer connections between browsers. Everything that happens within a DWA will occur over the established P2P networks the application creates, there is no dependence on external resources or services.
+A DCNT server is a simple self-hosted HTTPS/WSS server that implements the DCNT protocol. Preferably, this server will be running locally. DWAs connect to DCNT servers to facilitate WebRTC peer-to-peer connections between browsers. Everything that happens within a DWA will occur over the established P2P networks the application creates, there is no dependence on external resources or services.
 
 <img src="readme/connection-anatomy.png">
 
 ## Get Started
 
-<img src="readme/praise-jah.svg" align="left" style="width: 200px;">
+Getting started using Web420 is incredibly easy, in fact, you don't even need to be running a DCNT server to get in. Users without a DCNT server can get connected via any DCNT instance that is accessible within their target network. Running a DCNT server allows other users to connect to you.
 
-To access Web420, there are two requirements:
+For example, two friends can connect two devices through a DCNT server running on only one of their devices.
 
-1. A DCNT server, like DeCent-Core
-2. A DWA to use with it, like DeCent-Messenger
+If you're interested in running your own DCNT server instance, check out DeCent-Core.
+
+### Base requirements for Web420
+
+- A modern web browser
+- An accessible DCNT server instance
+
+Once these two criteria have been met, you're nearly ready to use Web420. The final requirement is a DWA to utilize the potential of the stack. DWAs are the doorways into Web420.
+
+Try DeCent Messenger (<a href="https://futurehood.github.io/DeCent-Messenger">Live Demo</a> / <a href="https://github.com/futurehood/DeCent-Messenger">Repository</a>), or build your own DWA.
 
 ## FAQ
 
