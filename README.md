@@ -95,7 +95,7 @@ Try DeCent Messenger (<a href="https://futurehood.github.io/DeCent-Messenger">Li
 
 ## About
 
-Created by the wizard Future Hood in service of the Goodness, for the benefit of all humankind.
+Created by the wizard Future Hood in service of the Goodness, for the benefit of all the Good people.
 
 ## Contribute
 
