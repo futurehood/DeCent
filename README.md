@@ -101,7 +101,9 @@ Created by the wizard Future Hood in service of the Goodness, for the benefit of
 
 ## Contribute
 
-Interested parties are encouraged to create their own DCNT-compatible, decentralized web applications (DWAs). Help build the One True Internet. For more information on <a href="">DWA development</a>, or the <a href="">DCNT protocol</a>, please visit the respective repositories.
+Please check back soon for information on contributing to DeCent-Core.
+
+Other interested parties are encouraged to create their own DCNT-compatible, decentralized web applications (DWAs). Help build the One True Internet. For more information on <a href="">DWA development</a>, or the <a href="">DCNT protocol</a>, please visit the respective repositories.
 
 ## Support development
 
