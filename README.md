@@ -47,8 +47,6 @@ In addition to the core subprojects that make up DeCent, official implementation
     </li>
 </ul>
 
-
-
 ## Features
 
 <img src="readme/praise-jah.svg#play" align="right" style="width: 300px;">
@@ -63,7 +61,7 @@ The peer-to-peer networks that form Web420 share these features:
 
 ## Technical Overview
 
-A DCNT server is a simple self-hosted HTTPS/WSS server that implements the DCNT protocol. Preferably, this server will be running locally. DWAs connect to DCNT servers to facilitate WebRTC peer-to-peer connections between browsers. Everything that happens within a DWA will occur over the established P2P networks the application creates, there is no dependence on external resources or services.
+A DCNT server is a simple self-hosted HTTPS/WSS server that implements the DCNT protocol. Preferably, this server will be running locally. DWAs connect to DCNT servers to facilitate WebRTC peer-to-peer connections between browsers. Everything that happens within a DWA will occur over the established P2P networks the application creates, there is no dependence on external resources or services. DCNT servers do not connect with one another, they merely provide connectivity between browsers.
 
 <img src="readme/connection-anatomy.png">
 
