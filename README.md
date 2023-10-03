@@ -15,7 +15,7 @@
 
 This repository serves as a portal to the One True Internet, Web420.
 
-Web420 combines the spirit of Internets of old with modern tech to provide the Good people with the Internet they deserve.
+Web420 combines the spirit of Yinterwebz of old with modern tech to bless the Good people with the modern webs they deserve.
 
 DeCent is a collection of protocols and tools that, when forces combine, hold the power to flip the traditional infrastructure of the Internet on its head, putting the power of connectivity back into the hands of the people.
 
