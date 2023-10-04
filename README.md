@@ -17,7 +17,7 @@ This repository serves as a portal to the One True Interwebz, Web420.
 
 Web420 combines the spirit of Yinterwebz of old with modern tech to bless the Good people with the modern webs they deserve.
 
-DeCent is a collection of protocols and tools that, when forces combine, hold the power to flip the traditional infrastructure of the Internet on its head, putting the power of connectivity back into the hands of the people.
+DeCent is a collection of protocols and tools that, when forces combine, hold the power to flip traditional usage of the Internet on its head, putting the power of connectivity back into the hands of the people. 
 
 - Infrastructureless - Web420 apps are hosted locally, meaning there is no hosting or infrastructure cost associated with operating or using them.
 - Direct, P2P connections only - Web420 apps only connect to each other, meaning all relayed data is completely private and unreachable by third parties out-of-the-box.
