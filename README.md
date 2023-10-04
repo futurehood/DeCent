@@ -13,7 +13,7 @@
 
 <img src="readme/1tru-badge.svg" align="right" style="width: 160px;">
 
-This repository serves as a portal to the One True Internet, Web420.
+This repository serves as a portal to the One True Interwebz, Web420.
 
 Web420 combines the spirit of Yinterwebz of old with modern tech to bless the Good people with the modern webs they deserve.
 
