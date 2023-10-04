@@ -31,11 +31,11 @@ Passage to Web420 is granted through the unified power of the stack. DeCent comp
     <li>
         <a href="https://github.com/futurehood/DCNT">DCNT Protocol</a>
     </li>
-    <li>
-        <a href="https://github.com/futurehood/DeCent-Core">DeCent-Core (DCNT server)</a>    
+      <li>
+        <a href="https://github.com/futurehood/DWA">DWA (Decentralized Web Application) Spec</a>
     </li>
     <li>
-        <a href="https://github.com/futurehood/DWA">DWA (Decentralized Web Application) Spec</a>
+        <a href="https://github.com/futurehood/DeCent-CLI">DeCent-CLI</a>
     </li>
 </ul>
 
@@ -54,14 +54,14 @@ In addition to the core subprojects that make up DeCent, official implementation
 The peer-to-peer networks that form Web420 share these features:
 
 1. **Undetectable** - DCNT networks are ephemeral and emergent, the traffic they generate is difficult to identify by pattern. Between that and the fact that every connection is wrapped in standard browser-based encryption, there is little chance of identifying DCNT users at all.
-2. **Unblockable** - Because DCNT networks are undetectable, they are also unblockable. DCNT networks operate over the regular Internet, and appear as normal Internet traffic, making it impossible to block specific DCNT networks without crippling specific, commonly-used capabilities across the whole network.
+2. **Unblockable** - Because DCNT networks are undetectable, they are also unblockable. DCNT networks operate over the Internet, and appear as normal Internet traffic, making it impossible to block specific DCNT networks without crippling specific, commonly-used capabilities across the whole network.
 3. **Unsurveillable** - In addition to being undetectable, every DCNT connection is secured by the SSL/TLS capabilities of the browser that it's running in, using modern, industry-standard security practices. Users can expect connections between DWAs to be secure and completely private.
 4. **Uncensorable** - Transmissions over DCNT networks cannot be censored.
 5. **Uncorruptible** - DCNT networks cannot be infiltrated or manipulated by anyone outside the network. This means users won't be subjected to unwanted spam, propaganda, or harassment. User networks belong to the users.
 
 ## Technical Overview
 
-A DCNT server is a simple self-hosted HTTPS/WSS server that implements the DCNT protocol. Preferably, this server will be running locally. DWAs connect to DCNT servers to facilitate WebRTC peer-to-peer connections between browsers. Everything that happens within a DWA will occur over the established P2P networks the application creates, there is no dependence on external resources or services. DCNT servers do not connect with one another, they merely provide connectivity between browsers.
+A DCNT server is a simple self-hosted HTTPS/WSS server that implements the DCNT signaling protocol. Preferably, this server will be running locally. DWAs connect to DCNT servers to facilitate WebRTC peer-to-peer connections between browsers. Everything that happens within a DWA will occur over the established P2P networks the application creates, there is no dependence on external resources or services. DCNT servers do not connect with one another, they merely provide connectivity between browsers.
 
 <img src="readme/connection-anatomy.png">
 
